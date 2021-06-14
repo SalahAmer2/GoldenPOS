@@ -13,3 +13,13 @@ D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddProduct.resources
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddVendor.resources
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateCustomer.resources
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateProduct.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddCustomerDelegate.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddProductCategory.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddUser.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddVendorDelegate.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.ChangePassword.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateCustomerDelegate.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateProductCategory.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateUser.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateVendor.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateVendorDelegate.resources
