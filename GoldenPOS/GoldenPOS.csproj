@@ -108,6 +108,12 @@
     <Compile Include="UpdateVendor.Designer.cs">
       <DependentUpon>UpdateVendor.cs</DependentUpon>
     </Compile>
+    <Compile Include="UpdateVendorDelegate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UpdateVendorDelegate.Designer.cs">
+      <DependentUpon>UpdateVendorDelegate.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
@@ -146,6 +152,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UpdateVendor.resx">
       <DependentUpon>UpdateVendor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateVendorDelegate.resx">
+      <DependentUpon>UpdateVendorDelegate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
