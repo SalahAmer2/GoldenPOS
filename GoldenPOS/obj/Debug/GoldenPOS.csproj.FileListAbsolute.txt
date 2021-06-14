@@ -1,0 +1,10 @@
+D:\ERP Projects\GoldenPOS\GoldenPOS\bin\Debug\GoldenPOS.exe.config
+D:\ERP Projects\GoldenPOS\GoldenPOS\bin\Debug\GoldenPOS.exe
+D:\ERP Projects\GoldenPOS\GoldenPOS\bin\Debug\GoldenPOS.pdb
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.AssemblyReference.cache
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.MainPage.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.Properties.Resources.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.GenerateResource.cache
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.CoreCompileInputs.cache
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.exe
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.pdb
