@@ -8,3 +8,8 @@ D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.GenerateResource.
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.CoreCompileInputs.cache
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.exe
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.pdb
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddCustomer.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddProduct.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddVendor.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateCustomer.resources
+D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateProduct.resources
