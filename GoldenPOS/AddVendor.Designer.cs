@@ -56,6 +56,7 @@ namespace GoldenPOS
             this.label13 = new System.Windows.Forms.Label();
             this.textBox12 = new System.Windows.Forms.TextBox();
             this.textBox13 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label10
@@ -66,6 +67,7 @@ namespace GoldenPOS
             this.label10.Size = new System.Drawing.Size(88, 13);
             this.label10.TabIndex = 101;
             this.label10.Text = "الموقع الالكتروني";
+            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox9
             // 
@@ -82,6 +84,7 @@ namespace GoldenPOS
             this.label9.Size = new System.Drawing.Size(75, 13);
             this.label9.TabIndex = 99;
             this.label9.Text = "السجل التجاري";
+            this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox8
             // 
@@ -98,6 +101,7 @@ namespace GoldenPOS
             this.label8.Size = new System.Drawing.Size(79, 13);
             this.label8.TabIndex = 97;
             this.label8.Text = "البطاقة الضريبية";
+            this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox7
             // 
@@ -117,7 +121,7 @@ namespace GoldenPOS
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(291, 530);
+            this.button18.Location = new System.Drawing.Point(115, 530);
             this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(100, 23);
@@ -134,6 +138,7 @@ namespace GoldenPOS
             this.label7.Size = new System.Drawing.Size(121, 13);
             this.label7.TabIndex = 94;
             this.label7.Text = "معلومات أخرى عن المنتج";
+            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label6
             // 
@@ -143,6 +148,7 @@ namespace GoldenPOS
             this.label6.Size = new System.Drawing.Size(59, 13);
             this.label6.TabIndex = 92;
             this.label6.Text = "اسم الشركة";
+            this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox6
             // 
@@ -159,6 +165,7 @@ namespace GoldenPOS
             this.label5.Size = new System.Drawing.Size(69, 13);
             this.label5.TabIndex = 90;
             this.label5.Text = "عنوان الشركة";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox5
             // 
@@ -175,6 +182,7 @@ namespace GoldenPOS
             this.label4.Size = new System.Drawing.Size(70, 13);
             this.label4.TabIndex = 88;
             this.label4.Text = "رقم التليفون 1";
+            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox4
             // 
@@ -191,6 +199,7 @@ namespace GoldenPOS
             this.label3.Size = new System.Drawing.Size(70, 13);
             this.label3.TabIndex = 86;
             this.label3.Text = "رقم التليفون 2";
+            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox3
             // 
@@ -207,6 +216,7 @@ namespace GoldenPOS
             this.label2.Size = new System.Drawing.Size(79, 13);
             this.label2.TabIndex = 84;
             this.label2.Text = "البريد الإكتروني";
+            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox2
             // 
@@ -223,6 +233,7 @@ namespace GoldenPOS
             this.label1.Size = new System.Drawing.Size(52, 13);
             this.label1.TabIndex = 82;
             this.label1.Text = "اسم البائع";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox1
             // 
@@ -239,6 +250,7 @@ namespace GoldenPOS
             this.label11.Size = new System.Drawing.Size(100, 13);
             this.label11.TabIndex = 107;
             this.label11.Text = "قيمة الفاتورة الأخيرة";
+            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox10
             // 
@@ -255,6 +267,7 @@ namespace GoldenPOS
             this.label12.Size = new System.Drawing.Size(69, 13);
             this.label12.TabIndex = 105;
             this.label12.Text = "إختيار التاريخ";
+            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox11
             // 
@@ -271,6 +284,7 @@ namespace GoldenPOS
             this.label13.Size = new System.Drawing.Size(105, 13);
             this.label13.TabIndex = 103;
             this.label13.Text = "تاريخ الفاتورة الأخيرة";
+            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox12
             // 
@@ -287,12 +301,33 @@ namespace GoldenPOS
             this.textBox13.Size = new System.Drawing.Size(277, 20);
             this.textBox13.TabIndex = 108;
             // 
+            // button1
+            // 
+            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.button1.Location = new System.Drawing.Point(254, 530);
+            this.button1.Margin = new System.Windows.Forms.Padding(2);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.TabIndex = 115;
+            this.button1.Text = "إلغاء";
+            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.button1.UseVisualStyleBackColor = false;
+            // 
             // AddVendor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(554, 580);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.textBox13);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.textBox10);
@@ -356,5 +391,6 @@ namespace GoldenPOS
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.TextBox textBox12;
         private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Button button1;
     }
 }
