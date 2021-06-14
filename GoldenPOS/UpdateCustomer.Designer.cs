@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class UpdateProduct
+    partial class UpdateCustomer
     {
         /// <summary>
         /// Required designer variable.
@@ -29,6 +29,12 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
+            this.label10 = new System.Windows.Forms.Label();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.button18 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
@@ -46,6 +52,54 @@ namespace GoldenPOS
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(449, 267);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(88, 13);
+            this.label10.TabIndex = 80;
+            this.label10.Text = "الموقع الالكتروني";
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(147, 264);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(277, 20);
+            this.textBox9.TabIndex = 79;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(449, 304);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(75, 13);
+            this.label9.TabIndex = 78;
+            this.label9.Text = "السجل التجاري";
+            // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(147, 301);
+            this.textBox8.Name = "textBox8";
+            this.textBox8.Size = new System.Drawing.Size(277, 20);
+            this.textBox8.TabIndex = 77;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(449, 341);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(79, 13);
+            this.label8.TabIndex = 76;
+            this.label8.Text = "البطاقة الضريبية";
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(147, 338);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(277, 20);
+            this.textBox7.TabIndex = 75;
+            // 
             // button18
             // 
             this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
@@ -57,11 +111,11 @@ namespace GoldenPOS
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(344, 330);
+            this.button18.Location = new System.Drawing.Point(323, 419);
             this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
             this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 38;
+            this.button18.TabIndex = 74;
             this.button18.Text = "تجديد البيانات";
             this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button18.UseVisualStyleBackColor = false;
@@ -69,122 +123,127 @@ namespace GoldenPOS
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(472, 265);
+            this.label7.Location = new System.Drawing.Point(451, 380);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(52, 13);
-            this.label7.TabIndex = 37;
-            this.label7.Text = "فئة المنتج";
+            this.label7.Size = new System.Drawing.Size(53, 13);
+            this.label7.TabIndex = 73;
+            this.label7.Text = "فئة العميل";
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(270, 261);
+            this.comboBox1.Location = new System.Drawing.Point(147, 376);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 21);
-            this.comboBox1.TabIndex = 36;
+            this.comboBox1.Size = new System.Drawing.Size(276, 21);
+            this.comboBox1.TabIndex = 72;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(469, 71);
+            this.label6.Location = new System.Drawing.Point(449, 75);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(54, 13);
-            this.label6.TabIndex = 35;
-            this.label6.Text = "اسم المنتج";
+            this.label6.Size = new System.Drawing.Size(59, 13);
+            this.label6.TabIndex = 71;
+            this.label6.Text = "اسم الشركة";
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(270, 68);
+            this.textBox6.Location = new System.Drawing.Point(147, 72);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(177, 20);
-            this.textBox6.TabIndex = 34;
+            this.textBox6.Size = new System.Drawing.Size(277, 20);
+            this.textBox6.TabIndex = 70;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(469, 113);
+            this.label5.Location = new System.Drawing.Point(449, 117);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(50, 13);
-            this.label5.TabIndex = 33;
-            this.label5.Text = "رقم الجزء";
+            this.label5.Size = new System.Drawing.Size(69, 13);
+            this.label5.TabIndex = 69;
+            this.label5.Text = "عنوان الشركة";
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(270, 110);
+            this.textBox5.Location = new System.Drawing.Point(147, 114);
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(177, 20);
-            this.textBox5.TabIndex = 32;
+            this.textBox5.Size = new System.Drawing.Size(277, 20);
+            this.textBox5.TabIndex = 68;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(469, 151);
+            this.label4.Location = new System.Drawing.Point(449, 155);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(34, 13);
-            this.label4.TabIndex = 31;
-            this.label4.Text = "الكمية";
+            this.label4.Size = new System.Drawing.Size(70, 13);
+            this.label4.TabIndex = 67;
+            this.label4.Text = "رقم التليفون 1";
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(270, 148);
+            this.textBox4.Location = new System.Drawing.Point(147, 152);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(177, 20);
-            this.textBox4.TabIndex = 30;
+            this.textBox4.Size = new System.Drawing.Size(277, 20);
+            this.textBox4.TabIndex = 66;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(469, 187);
+            this.label3.Location = new System.Drawing.Point(449, 191);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 13);
-            this.label3.TabIndex = 29;
-            this.label3.Text = "التكلفة الأخيرة";
+            this.label3.Size = new System.Drawing.Size(70, 13);
+            this.label3.TabIndex = 65;
+            this.label3.Text = "رقم التليفون 2";
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(270, 184);
+            this.textBox3.Location = new System.Drawing.Point(147, 188);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(177, 20);
-            this.textBox3.TabIndex = 28;
+            this.textBox3.Size = new System.Drawing.Size(277, 20);
+            this.textBox3.TabIndex = 64;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(469, 226);
+            this.label2.Location = new System.Drawing.Point(449, 230);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(33, 13);
-            this.label2.TabIndex = 27;
-            this.label2.Text = "السعر";
+            this.label2.Size = new System.Drawing.Size(79, 13);
+            this.label2.TabIndex = 63;
+            this.label2.Text = "البريد الإكتروني";
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(270, 223);
+            this.textBox2.Location = new System.Drawing.Point(147, 227);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 20);
-            this.textBox2.TabIndex = 26;
+            this.textBox2.Size = new System.Drawing.Size(277, 20);
+            this.textBox2.TabIndex = 62;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(469, 33);
+            this.label1.Location = new System.Drawing.Point(449, 37);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
-            this.label1.TabIndex = 25;
-            this.label1.Text = "الشفرة";
+            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.TabIndex = 61;
+            this.label1.Text = "اسم العميل";
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(270, 30);
+            this.textBox1.Location = new System.Drawing.Point(147, 34);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 20);
-            this.textBox1.TabIndex = 24;
+            this.textBox1.Size = new System.Drawing.Size(277, 20);
+            this.textBox1.TabIndex = 60;
             // 
-            // UpdateProduct
+            // UpdateCustomer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.ClientSize = new System.Drawing.Size(554, 383);
+            this.ClientSize = new System.Drawing.Size(554, 457);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.label9);
+            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.label8);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.button18);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.comboBox1);
@@ -200,8 +259,8 @@ namespace GoldenPOS
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
-            this.Name = "UpdateProduct";
-            this.Text = "تجديد بيانات المنتج";
+            this.Name = "UpdateCustomer";
+            this.Text = "تجديد بيانات العميل";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -209,6 +268,12 @@ namespace GoldenPOS
 
         #endregion
 
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.Label label9;
+        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Button button18;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.ComboBox comboBox1;
