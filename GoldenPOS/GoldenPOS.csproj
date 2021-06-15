@@ -46,52 +46,58 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AddCustomer.cs">
+    <Compile Include="CustomersForm\AddCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddCustomer.Designer.cs">
+    <Compile Include="CustomersForm\AddCustomer.Designer.cs">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddCustomerDelegate.cs">
+    <Compile Include="DelegatesForms\AddCustomerDelegate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddCustomerDelegate.Designer.cs">
+    <Compile Include="DelegatesForms\AddCustomerDelegate.Designer.cs">
       <DependentUpon>AddCustomerDelegate.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProduct.cs">
+    <Compile Include="MainControls.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProduct.Designer.cs">
+    <Compile Include="MainControls.Designer.cs">
+      <DependentUpon>MainControls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProductsForms\AddProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProductsForms\AddProduct.Designer.cs">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddProductCategory.cs">
+    <Compile Include="CategoriesForms\AddProductCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddProductCategory.Designer.cs">
+    <Compile Include="CategoriesForms\AddProductCategory.Designer.cs">
       <DependentUpon>AddProductCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddUser.cs">
+    <Compile Include="UsersForms\AddUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddUser.Designer.cs">
+    <Compile Include="UsersForms\AddUser.Designer.cs">
       <DependentUpon>AddUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddVendor.cs">
+    <Compile Include="VendorsForms\AddVendor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddVendor.Designer.cs">
+    <Compile Include="VendorsForms\AddVendor.Designer.cs">
       <DependentUpon>AddVendor.cs</DependentUpon>
     </Compile>
-    <Compile Include="AddVendorDelegate.cs">
+    <Compile Include="DelegatesForms\AddVendorDelegate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="AddVendorDelegate.Designer.cs">
+    <Compile Include="DelegatesForms\AddVendorDelegate.Designer.cs">
       <DependentUpon>AddVendorDelegate.cs</DependentUpon>
     </Compile>
-    <Compile Include="ChangePassword.cs">
+    <Compile Include="UsersForms\ChangePassword.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ChangePassword.Designer.cs">
+    <Compile Include="UsersForms\ChangePassword.Designer.cs">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </Compile>
     <Compile Include="MainPage.cs">
@@ -102,70 +108,70 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpdateCustomer.cs">
+    <Compile Include="CustomersForm\UpdateCustomer.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateCustomer.Designer.cs">
+    <Compile Include="CustomersForm\UpdateCustomer.Designer.cs">
       <DependentUpon>UpdateCustomer.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateCustomerDelegate.cs">
+    <Compile Include="DelegatesForms\UpdateCustomerDelegate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateCustomerDelegate.Designer.cs">
+    <Compile Include="DelegatesForms\UpdateCustomerDelegate.Designer.cs">
       <DependentUpon>UpdateCustomerDelegate.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateProduct.cs">
+    <Compile Include="ProductsForms\UpdateProduct.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateProduct.Designer.cs">
+    <Compile Include="ProductsForms\UpdateProduct.Designer.cs">
       <DependentUpon>UpdateProduct.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateProductCategory.cs">
+    <Compile Include="CategoriesForms\UpdateProductCategory.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateProductCategory.Designer.cs">
+    <Compile Include="CategoriesForms\UpdateProductCategory.Designer.cs">
       <DependentUpon>UpdateProductCategory.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateUser.cs">
+    <Compile Include="UsersForms\UpdateUser.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateUser.Designer.cs">
+    <Compile Include="UsersForms\UpdateUser.Designer.cs">
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateVendor.cs">
+    <Compile Include="VendorsForms\UpdateVendor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateVendor.Designer.cs">
+    <Compile Include="VendorsForms\UpdateVendor.Designer.cs">
       <DependentUpon>UpdateVendor.cs</DependentUpon>
     </Compile>
-    <Compile Include="UpdateVendorDelegate.cs">
+    <Compile Include="DelegatesForms\UpdateVendorDelegate.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UpdateVendorDelegate.Designer.cs">
+    <Compile Include="DelegatesForms\UpdateVendorDelegate.Designer.cs">
       <DependentUpon>UpdateVendorDelegate.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="AddCustomer.resx">
+    <EmbeddedResource Include="CustomersForm\AddCustomer.resx">
       <DependentUpon>AddCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddCustomerDelegate.resx">
+    <EmbeddedResource Include="DelegatesForms\AddCustomerDelegate.resx">
       <DependentUpon>AddCustomerDelegate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProduct.resx">
+    <EmbeddedResource Include="ProductsForms\AddProduct.resx">
       <DependentUpon>AddProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddProductCategory.resx">
+    <EmbeddedResource Include="CategoriesForms\AddProductCategory.resx">
       <DependentUpon>AddProductCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddUser.resx">
+    <EmbeddedResource Include="UsersForms\AddUser.resx">
       <DependentUpon>AddUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddVendor.resx">
+    <EmbeddedResource Include="VendorsForms\AddVendor.resx">
       <DependentUpon>AddVendor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="AddVendorDelegate.resx">
+    <EmbeddedResource Include="DelegatesForms\AddVendorDelegate.resx">
       <DependentUpon>AddVendorDelegate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ChangePassword.resx">
+    <EmbeddedResource Include="UsersForms\ChangePassword.resx">
       <DependentUpon>ChangePassword.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainPage.resx">
@@ -180,25 +186,25 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="UpdateCustomer.resx">
+    <EmbeddedResource Include="CustomersForm\UpdateCustomer.resx">
       <DependentUpon>UpdateCustomer.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateCustomerDelegate.resx">
+    <EmbeddedResource Include="DelegatesForms\UpdateCustomerDelegate.resx">
       <DependentUpon>UpdateCustomerDelegate.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateProduct.resx">
+    <EmbeddedResource Include="ProductsForms\UpdateProduct.resx">
       <DependentUpon>UpdateProduct.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateProductCategory.resx">
+    <EmbeddedResource Include="CategoriesForms\UpdateProductCategory.resx">
       <DependentUpon>UpdateProductCategory.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateUser.resx">
+    <EmbeddedResource Include="UsersForms\UpdateUser.resx">
       <DependentUpon>UpdateUser.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateVendor.resx">
+    <EmbeddedResource Include="VendorsForms\UpdateVendor.resx">
       <DependentUpon>UpdateVendor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="UpdateVendorDelegate.resx">
+    <EmbeddedResource Include="DelegatesForms\UpdateVendorDelegate.resx">
       <DependentUpon>UpdateVendorDelegate.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
@@ -217,5 +223,6 @@
   <ItemGroup>
     <Content Include="Icons\search icon.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
