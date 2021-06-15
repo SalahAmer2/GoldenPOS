@@ -80,7 +80,7 @@ namespace GoldenPOS
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(30, 13);
             this.label13.TabIndex = 118;
-            this.label13.Text = "الأسم";
+            this.label13.Text = "الإسم";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox12

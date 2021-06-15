@@ -50,16 +50,16 @@ namespace GoldenPOS
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(300, 47);
+            this.label1.Location = new System.Drawing.Point(287, 67);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(55, 13);
+            this.label1.Size = new System.Drawing.Size(68, 13);
             this.label1.TabIndex = 1;
-            this.label1.Text = "كود المنتج";
+            this.label1.Text = "باركود المنتج";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(322, 212);
+            this.label2.Location = new System.Drawing.Point(322, 232);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 13);
             this.label2.TabIndex = 3;
@@ -68,7 +68,7 @@ namespace GoldenPOS
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(318, 179);
+            this.label3.Location = new System.Drawing.Point(318, 199);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(37, 13);
             this.label3.TabIndex = 5;
@@ -77,7 +77,7 @@ namespace GoldenPOS
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(321, 146);
+            this.label4.Location = new System.Drawing.Point(321, 166);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 7;
@@ -86,7 +86,7 @@ namespace GoldenPOS
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(300, 113);
+            this.label5.Location = new System.Drawing.Point(300, 133);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(55, 13);
             this.label5.TabIndex = 9;
@@ -95,7 +95,7 @@ namespace GoldenPOS
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(301, 80);
+            this.label6.Location = new System.Drawing.Point(301, 100);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(54, 13);
             this.label6.TabIndex = 11;
@@ -104,7 +104,7 @@ namespace GoldenPOS
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(303, 246);
+            this.label7.Location = new System.Drawing.Point(303, 33);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(52, 13);
             this.label7.TabIndex = 13;
@@ -121,61 +121,61 @@ namespace GoldenPOS
             this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(127, 297);
+            this.button18.Location = new System.Drawing.Point(90, 297);
             this.button18.Margin = new System.Windows.Forms.Padding(2);
             this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
+            this.button18.Size = new System.Drawing.Size(62, 23);
             this.button18.TabIndex = 23;
-            this.button18.Text = "إضافة المنتج";
+            this.button18.Text = "إضافة";
             this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button18.UseVisualStyleBackColor = false;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(79, 242);
+            this.comboBox1.Location = new System.Drawing.Point(104, 29);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(177, 21);
             this.comboBox1.TabIndex = 43;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(79, 77);
+            this.textBox6.Location = new System.Drawing.Point(104, 97);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(177, 20);
             this.textBox6.TabIndex = 42;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(79, 110);
+            this.textBox5.Location = new System.Drawing.Point(104, 130);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(177, 20);
             this.textBox5.TabIndex = 41;
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(79, 143);
+            this.textBox4.Location = new System.Drawing.Point(211, 163);
             this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(177, 20);
+            this.textBox4.Size = new System.Drawing.Size(70, 20);
             this.textBox4.TabIndex = 40;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(79, 176);
+            this.textBox3.Location = new System.Drawing.Point(211, 196);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(177, 20);
+            this.textBox3.Size = new System.Drawing.Size(70, 20);
             this.textBox3.TabIndex = 39;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(79, 209);
+            this.textBox2.Location = new System.Drawing.Point(211, 229);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 20);
+            this.textBox2.Size = new System.Drawing.Size(70, 20);
             this.textBox2.TabIndex = 38;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(79, 44);
+            this.textBox1.Location = new System.Drawing.Point(104, 64);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(177, 20);
             this.textBox1.TabIndex = 37;
@@ -194,7 +194,7 @@ namespace GoldenPOS
             this.button1.Location = new System.Drawing.Point(11, 297);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
+            this.button1.Size = new System.Drawing.Size(62, 23);
             this.button1.TabIndex = 44;
             this.button1.Text = "إلغاء";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;

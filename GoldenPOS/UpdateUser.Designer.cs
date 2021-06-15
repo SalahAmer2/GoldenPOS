@@ -92,7 +92,7 @@ namespace GoldenPOS
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 23);
             this.button1.TabIndex = 134;
-            this.button1.Text = "تجديد البيانات";
+            this.button1.Text = "حفظ";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button1.UseVisualStyleBackColor = false;
             // 
