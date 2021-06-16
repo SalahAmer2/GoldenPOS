@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddProduct
+    partial class AddProductForm
     {
         /// <summary>
         /// Required designer variable.
@@ -36,15 +36,15 @@ namespace GoldenPOS
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.button18 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddProductFormAddBtn = new System.Windows.Forms.Button();
+            this.addProductFormProductCategoryComboBox = new System.Windows.Forms.ComboBox();
+            this.addProductFormNameTextBox = new System.Windows.Forms.TextBox();
+            this.addProductFormPartNumberTextBox = new System.Windows.Forms.TextBox();
+            this.addProductFormQuantityTextBox = new System.Windows.Forms.TextBox();
+            this.addProductFormLatestCostTextBox = new System.Windows.Forms.TextBox();
+            this.addProductFormPriceTextBox = new System.Windows.Forms.TextBox();
+            this.addProductFormCodeTextBox = new System.Windows.Forms.TextBox();
+            this.AddProductFormCancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -110,111 +110,111 @@ namespace GoldenPOS
             this.label7.TabIndex = 13;
             this.label7.Text = "فئة المنتج";
             // 
-            // button18
+            // AddProductFormAddBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(90, 297);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(62, 23);
-            this.button18.TabIndex = 23;
-            this.button18.Text = "إضافة";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddProductFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddProductFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddProductFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddProductFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddProductFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddProductFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddProductFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddProductFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddProductFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddProductFormAddBtn.Location = new System.Drawing.Point(90, 297);
+            this.AddProductFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddProductFormAddBtn.Name = "AddProductFormAddBtn";
+            this.AddProductFormAddBtn.Size = new System.Drawing.Size(62, 23);
+            this.AddProductFormAddBtn.TabIndex = 23;
+            this.AddProductFormAddBtn.Text = "إضافة";
+            this.AddProductFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddProductFormAddBtn.UseVisualStyleBackColor = false;
             // 
-            // comboBox1
+            // addProductFormProductCategoryComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(104, 29);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 21);
-            this.comboBox1.TabIndex = 43;
+            this.addProductFormProductCategoryComboBox.FormattingEnabled = true;
+            this.addProductFormProductCategoryComboBox.Location = new System.Drawing.Point(104, 29);
+            this.addProductFormProductCategoryComboBox.Name = "addProductFormProductCategoryComboBox";
+            this.addProductFormProductCategoryComboBox.Size = new System.Drawing.Size(177, 21);
+            this.addProductFormProductCategoryComboBox.TabIndex = 43;
             // 
-            // textBox6
+            // addProductFormNameTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(104, 97);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(177, 20);
-            this.textBox6.TabIndex = 42;
+            this.addProductFormNameTextBox.Location = new System.Drawing.Point(104, 97);
+            this.addProductFormNameTextBox.Name = "addProductFormNameTextBox";
+            this.addProductFormNameTextBox.Size = new System.Drawing.Size(177, 20);
+            this.addProductFormNameTextBox.TabIndex = 42;
             // 
-            // textBox5
+            // addProductFormPartNumberTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(104, 130);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(177, 20);
-            this.textBox5.TabIndex = 41;
+            this.addProductFormPartNumberTextBox.Location = new System.Drawing.Point(104, 130);
+            this.addProductFormPartNumberTextBox.Name = "addProductFormPartNumberTextBox";
+            this.addProductFormPartNumberTextBox.Size = new System.Drawing.Size(177, 20);
+            this.addProductFormPartNumberTextBox.TabIndex = 41;
             // 
-            // textBox4
+            // addProductFormQuantityTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(211, 163);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(70, 20);
-            this.textBox4.TabIndex = 40;
+            this.addProductFormQuantityTextBox.Location = new System.Drawing.Point(211, 163);
+            this.addProductFormQuantityTextBox.Name = "addProductFormQuantityTextBox";
+            this.addProductFormQuantityTextBox.Size = new System.Drawing.Size(70, 20);
+            this.addProductFormQuantityTextBox.TabIndex = 40;
             // 
-            // textBox3
+            // addProductFormLatestCostTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(211, 196);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(70, 20);
-            this.textBox3.TabIndex = 39;
+            this.addProductFormLatestCostTextBox.Location = new System.Drawing.Point(211, 196);
+            this.addProductFormLatestCostTextBox.Name = "addProductFormLatestCostTextBox";
+            this.addProductFormLatestCostTextBox.Size = new System.Drawing.Size(70, 20);
+            this.addProductFormLatestCostTextBox.TabIndex = 39;
             // 
-            // textBox2
+            // addProductFormPriceTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(211, 229);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(70, 20);
-            this.textBox2.TabIndex = 38;
+            this.addProductFormPriceTextBox.Location = new System.Drawing.Point(211, 229);
+            this.addProductFormPriceTextBox.Name = "addProductFormPriceTextBox";
+            this.addProductFormPriceTextBox.Size = new System.Drawing.Size(70, 20);
+            this.addProductFormPriceTextBox.TabIndex = 38;
             // 
-            // textBox1
+            // addProductFormCodeTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(104, 64);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 20);
-            this.textBox1.TabIndex = 37;
+            this.addProductFormCodeTextBox.Location = new System.Drawing.Point(104, 64);
+            this.addProductFormCodeTextBox.Name = "addProductFormCodeTextBox";
+            this.addProductFormCodeTextBox.Size = new System.Drawing.Size(177, 20);
+            this.addProductFormCodeTextBox.TabIndex = 37;
             // 
-            // button1
+            // AddProductFormCancelBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(11, 297);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(62, 23);
-            this.button1.TabIndex = 44;
-            this.button1.Text = "إلغاء";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddProductFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddProductFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddProductFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddProductFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddProductFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddProductFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddProductFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddProductFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddProductFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddProductFormCancelBtn.Location = new System.Drawing.Point(11, 297);
+            this.AddProductFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddProductFormCancelBtn.Name = "AddProductFormCancelBtn";
+            this.AddProductFormCancelBtn.Size = new System.Drawing.Size(62, 23);
+            this.AddProductFormCancelBtn.TabIndex = 44;
+            this.AddProductFormCancelBtn.Text = "إلغاء";
+            this.AddProductFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddProductFormCancelBtn.UseVisualStyleBackColor = false;
             // 
-            // AddProduct
+            // AddProductForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(367, 331);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.AddProductFormCancelBtn);
+            this.Controls.Add(this.addProductFormProductCategoryComboBox);
+            this.Controls.Add(this.addProductFormNameTextBox);
+            this.Controls.Add(this.addProductFormPartNumberTextBox);
+            this.Controls.Add(this.addProductFormQuantityTextBox);
+            this.Controls.Add(this.addProductFormLatestCostTextBox);
+            this.Controls.Add(this.addProductFormPriceTextBox);
+            this.Controls.Add(this.addProductFormCodeTextBox);
+            this.Controls.Add(this.AddProductFormAddBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
@@ -222,7 +222,7 @@ namespace GoldenPOS
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Name = "AddProduct";
+            this.Name = "AddProductForm";
             this.Text = "إضافة منتج";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -237,14 +237,14 @@ namespace GoldenPOS
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox6;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddProductFormAddBtn;
+        private System.Windows.Forms.ComboBox addProductFormProductCategoryComboBox;
+        private System.Windows.Forms.TextBox addProductFormNameTextBox;
+        private System.Windows.Forms.TextBox addProductFormPartNumberTextBox;
+        private System.Windows.Forms.TextBox addProductFormQuantityTextBox;
+        private System.Windows.Forms.TextBox addProductFormLatestCostTextBox;
+        private System.Windows.Forms.TextBox addProductFormPriceTextBox;
+        private System.Windows.Forms.TextBox addProductFormCodeTextBox;
+        private System.Windows.Forms.Button AddProductFormCancelBtn;
     }
 }

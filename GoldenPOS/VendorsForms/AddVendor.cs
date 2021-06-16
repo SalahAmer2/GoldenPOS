@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GoldenPOS
 {
-    public partial class AddVendor : Form
+    public partial class AddVendorForm : Form
     {
-        public AddVendor()
+        public AddVendorForm()
         {
             InitializeComponent();
         }

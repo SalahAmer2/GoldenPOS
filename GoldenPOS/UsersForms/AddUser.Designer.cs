@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddUser
+    partial class AddUserForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,49 +29,49 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox13 = new System.Windows.Forms.TextBox();
+            this.AddUserFormAddBtn = new System.Windows.Forms.Button();
+            this.addUserFormPhoneNumberTextBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
+            this.addUserFormNameTextBox = new System.Windows.Forms.TextBox();
+            this.AddUserFormCancelBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.addUserFormPasswordTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.addUserFormUserNameTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.addUserFormConfirmPasswordTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.addUserFormAuthenticationLevelComboBox = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // button1
+            // AddUserFormAddBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(129, 292);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 120;
-            this.button1.Text = "إضافة المستخدم";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddUserFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddUserFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddUserFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddUserFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddUserFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddUserFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddUserFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddUserFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddUserFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddUserFormAddBtn.Location = new System.Drawing.Point(129, 292);
+            this.AddUserFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddUserFormAddBtn.Name = "AddUserFormAddBtn";
+            this.AddUserFormAddBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddUserFormAddBtn.TabIndex = 120;
+            this.AddUserFormAddBtn.Text = "إضافة";
+            this.AddUserFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddUserFormAddBtn.UseVisualStyleBackColor = false;
             // 
-            // textBox13
+            // addUserFormPhoneNumberTextBox
             // 
-            this.textBox13.Location = new System.Drawing.Point(61, 85);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(277, 20);
-            this.textBox13.TabIndex = 119;
+            this.addUserFormPhoneNumberTextBox.Location = new System.Drawing.Point(61, 85);
+            this.addUserFormPhoneNumberTextBox.Multiline = true;
+            this.addUserFormPhoneNumberTextBox.Name = "addUserFormPhoneNumberTextBox";
+            this.addUserFormPhoneNumberTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addUserFormPhoneNumberTextBox.TabIndex = 119;
             // 
             // label13
             // 
@@ -83,32 +83,32 @@ namespace GoldenPOS
             this.label13.Text = "الإسم";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox12
+            // addUserFormNameTextBox
             // 
-            this.textBox12.Location = new System.Drawing.Point(61, 50);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(277, 20);
-            this.textBox12.TabIndex = 117;
+            this.addUserFormNameTextBox.Location = new System.Drawing.Point(61, 50);
+            this.addUserFormNameTextBox.Name = "addUserFormNameTextBox";
+            this.addUserFormNameTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addUserFormNameTextBox.TabIndex = 117;
             // 
-            // button18
+            // AddUserFormCancelBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(11, 292);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 116;
-            this.button18.Text = "إلغاء";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddUserFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddUserFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddUserFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddUserFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddUserFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddUserFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddUserFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddUserFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddUserFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddUserFormCancelBtn.Location = new System.Drawing.Point(11, 292);
+            this.AddUserFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddUserFormCancelBtn.Name = "AddUserFormCancelBtn";
+            this.AddUserFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddUserFormCancelBtn.TabIndex = 116;
+            this.AddUserFormCancelBtn.Text = "إلغاء";
+            this.AddUserFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddUserFormCancelBtn.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -120,13 +120,13 @@ namespace GoldenPOS
             this.label7.Text = "رقم التليفون";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // addUserFormPasswordTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(61, 155);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
-            this.textBox1.TabIndex = 124;
+            this.addUserFormPasswordTextBox.Location = new System.Drawing.Point(61, 155);
+            this.addUserFormPasswordTextBox.Multiline = true;
+            this.addUserFormPasswordTextBox.Name = "addUserFormPasswordTextBox";
+            this.addUserFormPasswordTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addUserFormPasswordTextBox.TabIndex = 124;
             // 
             // label1
             // 
@@ -138,12 +138,12 @@ namespace GoldenPOS
             this.label1.Text = "اسم المستخدم";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox2
+            // addUserFormUserNameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(61, 120);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 20);
-            this.textBox2.TabIndex = 122;
+            this.addUserFormUserNameTextBox.Location = new System.Drawing.Point(61, 120);
+            this.addUserFormUserNameTextBox.Name = "addUserFormUserNameTextBox";
+            this.addUserFormUserNameTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addUserFormUserNameTextBox.TabIndex = 122;
             // 
             // label2
             // 
@@ -155,13 +155,13 @@ namespace GoldenPOS
             this.label2.Text = "كلمة السر";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox3
+            // addUserFormConfirmPasswordTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(61, 190);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 20);
-            this.textBox3.TabIndex = 126;
+            this.addUserFormConfirmPasswordTextBox.Location = new System.Drawing.Point(61, 190);
+            this.addUserFormConfirmPasswordTextBox.Multiline = true;
+            this.addUserFormConfirmPasswordTextBox.Name = "addUserFormConfirmPasswordTextBox";
+            this.addUserFormConfirmPasswordTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addUserFormConfirmPasswordTextBox.TabIndex = 126;
             // 
             // label3
             // 
@@ -183,35 +183,35 @@ namespace GoldenPOS
             this.label4.Text = "الصلاحيات";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // comboBox1
+            // addUserFormAuthenticationLevelComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(61, 225);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(277, 21);
-            this.comboBox1.TabIndex = 128;
+            this.addUserFormAuthenticationLevelComboBox.FormattingEnabled = true;
+            this.addUserFormAuthenticationLevelComboBox.Location = new System.Drawing.Point(61, 225);
+            this.addUserFormAuthenticationLevelComboBox.Name = "addUserFormAuthenticationLevelComboBox";
+            this.addUserFormAuthenticationLevelComboBox.Size = new System.Drawing.Size(277, 21);
+            this.addUserFormAuthenticationLevelComboBox.TabIndex = 128;
             // 
-            // AddUser
+            // AddUserForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(447, 326);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.addUserFormAuthenticationLevelComboBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.addUserFormConfirmPasswordTextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.addUserFormPasswordTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.addUserFormUserNameTextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.AddUserFormAddBtn);
+            this.Controls.Add(this.addUserFormPhoneNumberTextBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox12);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.addUserFormNameTextBox);
+            this.Controls.Add(this.AddUserFormCancelBtn);
             this.Controls.Add(this.label7);
-            this.Name = "AddUser";
+            this.Name = "AddUserForm";
             this.Text = "إضافة المستخدم";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -220,19 +220,19 @@ namespace GoldenPOS
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox13;
+        private System.Windows.Forms.Button AddUserFormAddBtn;
+        private System.Windows.Forms.TextBox addUserFormPhoneNumberTextBox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TextBox addUserFormNameTextBox;
+        private System.Windows.Forms.Button AddUserFormCancelBtn;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox addUserFormPasswordTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox addUserFormUserNameTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox addUserFormConfirmPasswordTextBox;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox addUserFormAuthenticationLevelComboBox;
     }
 }

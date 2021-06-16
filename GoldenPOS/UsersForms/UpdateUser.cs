@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace GoldenPOS
 {
-    public partial class UpdateUser : Form
+    public partial class UpdateUserForm : Form
     {
-        public UpdateUser()
+        public UpdateUserForm()
         {
             InitializeComponent();
         }

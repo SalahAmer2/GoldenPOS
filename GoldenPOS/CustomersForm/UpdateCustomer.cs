@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace GoldenPOS
 {
-    public partial class UpdateCustomer : Form
+    public partial class UpdateCustomerForm : Form
     {
         int customerID;
-        public UpdateCustomer(int ID)
+        public UpdateCustomerForm(int ID)
         {
             InitializeComponent();
             customerID = ID;
@@ -23,7 +23,7 @@ namespace GoldenPOS
         {
             Dictionary<string, string> customer = DataManager.GetOneCustomerAllInfoByID(customerID);
 
-            textBox1.Text = customer["name"];
+            updateCustomerFormNameTextBox.Text = customer["name"];
 
         }
     }

@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddProductCategory
+    partial class AddProductCategoryForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,48 +29,48 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
+            this.addProductCategoryFormNameTextBox = new System.Windows.Forms.TextBox();
+            this.addProductCategoryFormDescriptionTextBox = new System.Windows.Forms.TextBox();
+            this.AddProductCategoryFormAddBtn = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddProductCategoryFormCancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox5
+            // addProductCategoryFormNameTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(46, 33);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(213, 20);
-            this.textBox5.TabIndex = 90;
+            this.addProductCategoryFormNameTextBox.Location = new System.Drawing.Point(46, 33);
+            this.addProductCategoryFormNameTextBox.Name = "addProductCategoryFormNameTextBox";
+            this.addProductCategoryFormNameTextBox.Size = new System.Drawing.Size(213, 20);
+            this.addProductCategoryFormNameTextBox.TabIndex = 90;
             // 
-            // textBox4
+            // addProductCategoryFormDescriptionTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(46, 71);
-            this.textBox4.Multiline = true;
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(213, 60);
-            this.textBox4.TabIndex = 89;
+            this.addProductCategoryFormDescriptionTextBox.Location = new System.Drawing.Point(46, 71);
+            this.addProductCategoryFormDescriptionTextBox.Multiline = true;
+            this.addProductCategoryFormDescriptionTextBox.Name = "addProductCategoryFormDescriptionTextBox";
+            this.addProductCategoryFormDescriptionTextBox.Size = new System.Drawing.Size(213, 60);
+            this.addProductCategoryFormDescriptionTextBox.TabIndex = 89;
             // 
-            // button18
+            // AddProductCategoryFormAddBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(124, 159);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 86;
-            this.button18.Text = "إضافة فئة المنتج";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddProductCategoryFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddProductCategoryFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddProductCategoryFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddProductCategoryFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddProductCategoryFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddProductCategoryFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddProductCategoryFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddProductCategoryFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddProductCategoryFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddProductCategoryFormAddBtn.Location = new System.Drawing.Point(124, 159);
+            this.AddProductCategoryFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddProductCategoryFormAddBtn.Name = "AddProductCategoryFormAddBtn";
+            this.AddProductCategoryFormAddBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddProductCategoryFormAddBtn.TabIndex = 86;
+            this.AddProductCategoryFormAddBtn.Text = "إضافة";
+            this.AddProductCategoryFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddProductCategoryFormAddBtn.UseVisualStyleBackColor = false;
             // 
             // label5
             // 
@@ -90,39 +90,39 @@ namespace GoldenPOS
             this.label4.TabIndex = 83;
             this.label4.Text = "معلومات عن الفئة";
             // 
-            // button1
+            // AddProductCategoryFormCancelBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(11, 159);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 91;
-            this.button1.Text = "إلغاء";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddProductCategoryFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddProductCategoryFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddProductCategoryFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddProductCategoryFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddProductCategoryFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddProductCategoryFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddProductCategoryFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddProductCategoryFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddProductCategoryFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddProductCategoryFormCancelBtn.Location = new System.Drawing.Point(11, 159);
+            this.AddProductCategoryFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddProductCategoryFormCancelBtn.Name = "AddProductCategoryFormCancelBtn";
+            this.AddProductCategoryFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddProductCategoryFormCancelBtn.TabIndex = 91;
+            this.AddProductCategoryFormCancelBtn.Text = "إلغاء";
+            this.AddProductCategoryFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddProductCategoryFormCancelBtn.UseVisualStyleBackColor = false;
             // 
-            // AddProductCategory
+            // AddProductCategoryForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(372, 193);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.AddProductCategoryFormCancelBtn);
+            this.Controls.Add(this.addProductCategoryFormNameTextBox);
+            this.Controls.Add(this.addProductCategoryFormDescriptionTextBox);
+            this.Controls.Add(this.AddProductCategoryFormAddBtn);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Name = "AddProductCategory";
+            this.Name = "AddProductCategoryForm";
             this.Text = "إضافة فئة المنتج";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -130,11 +130,11 @@ namespace GoldenPOS
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TextBox addProductCategoryFormNameTextBox;
+        private System.Windows.Forms.TextBox addProductCategoryFormDescriptionTextBox;
+        private System.Windows.Forms.Button AddProductCategoryFormAddBtn;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddProductCategoryFormCancelBtn;
     }
 }

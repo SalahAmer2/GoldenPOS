@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class ChangePassword
+    partial class ChangePasswordForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,25 +29,25 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.changePasswordFormConfirmNewPasswordTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.changePasswordFormNewPasswordTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.changePasswordFormUserNameTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
+            this.changePasswordFormSaveBtn = new System.Windows.Forms.Button();
+            this.changePasswordFormCancelBtn = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.changePasswordFormPasswordTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // textBox3
+            // changePasswordFormConfirmNewPasswordTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(39, 137);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 20);
-            this.textBox3.TabIndex = 154;
+            this.changePasswordFormConfirmNewPasswordTextBox.Location = new System.Drawing.Point(39, 137);
+            this.changePasswordFormConfirmNewPasswordTextBox.Multiline = true;
+            this.changePasswordFormConfirmNewPasswordTextBox.Name = "changePasswordFormConfirmNewPasswordTextBox";
+            this.changePasswordFormConfirmNewPasswordTextBox.Size = new System.Drawing.Size(277, 20);
+            this.changePasswordFormConfirmNewPasswordTextBox.TabIndex = 154;
             // 
             // label3
             // 
@@ -59,13 +59,13 @@ namespace GoldenPOS
             this.label3.Text = "تأكيد كلمة السر الجديدة";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // changePasswordFormNewPasswordTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(39, 104);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
-            this.textBox1.TabIndex = 152;
+            this.changePasswordFormNewPasswordTextBox.Location = new System.Drawing.Point(39, 104);
+            this.changePasswordFormNewPasswordTextBox.Multiline = true;
+            this.changePasswordFormNewPasswordTextBox.Name = "changePasswordFormNewPasswordTextBox";
+            this.changePasswordFormNewPasswordTextBox.Size = new System.Drawing.Size(277, 20);
+            this.changePasswordFormNewPasswordTextBox.TabIndex = 152;
             // 
             // label1
             // 
@@ -77,12 +77,12 @@ namespace GoldenPOS
             this.label1.Text = "اسم المستخدم";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox2
+            // changePasswordFormUserNameTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(39, 38);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 20);
-            this.textBox2.TabIndex = 150;
+            this.changePasswordFormUserNameTextBox.Location = new System.Drawing.Point(39, 38);
+            this.changePasswordFormUserNameTextBox.Name = "changePasswordFormUserNameTextBox";
+            this.changePasswordFormUserNameTextBox.Size = new System.Drawing.Size(277, 20);
+            this.changePasswordFormUserNameTextBox.TabIndex = 150;
             // 
             // label2
             // 
@@ -94,45 +94,45 @@ namespace GoldenPOS
             this.label2.Text = "كلمة السر الجديدة";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // button1
+            // changePasswordFormSaveBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(136, 196);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 148;
-            this.button1.Text = "تغيير كلمة السر";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.changePasswordFormSaveBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.changePasswordFormSaveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.changePasswordFormSaveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.changePasswordFormSaveBtn.FlatAppearance.BorderSize = 0;
+            this.changePasswordFormSaveBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.changePasswordFormSaveBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.changePasswordFormSaveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.changePasswordFormSaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changePasswordFormSaveBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.changePasswordFormSaveBtn.Location = new System.Drawing.Point(136, 196);
+            this.changePasswordFormSaveBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.changePasswordFormSaveBtn.Name = "changePasswordFormSaveBtn";
+            this.changePasswordFormSaveBtn.Size = new System.Drawing.Size(100, 23);
+            this.changePasswordFormSaveBtn.TabIndex = 148;
+            this.changePasswordFormSaveBtn.Text = "حفظ";
+            this.changePasswordFormSaveBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.changePasswordFormSaveBtn.UseVisualStyleBackColor = false;
             // 
-            // button18
+            // changePasswordFormCancelBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(11, 196);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 144;
-            this.button18.Text = "إلغاء";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.changePasswordFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.changePasswordFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.changePasswordFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.changePasswordFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.changePasswordFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.changePasswordFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.changePasswordFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.changePasswordFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changePasswordFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.changePasswordFormCancelBtn.Location = new System.Drawing.Point(11, 196);
+            this.changePasswordFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.changePasswordFormCancelBtn.Name = "changePasswordFormCancelBtn";
+            this.changePasswordFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.changePasswordFormCancelBtn.TabIndex = 144;
+            this.changePasswordFormCancelBtn.Text = "إلغاء";
+            this.changePasswordFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.changePasswordFormCancelBtn.UseVisualStyleBackColor = false;
             // 
             // label4
             // 
@@ -144,30 +144,30 @@ namespace GoldenPOS
             this.label4.Text = "كلمة السر";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox4
+            // changePasswordFormPasswordTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(39, 71);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(277, 20);
-            this.textBox4.TabIndex = 155;
+            this.changePasswordFormPasswordTextBox.Location = new System.Drawing.Point(39, 71);
+            this.changePasswordFormPasswordTextBox.Name = "changePasswordFormPasswordTextBox";
+            this.changePasswordFormPasswordTextBox.Size = new System.Drawing.Size(277, 20);
+            this.changePasswordFormPasswordTextBox.TabIndex = 155;
             // 
-            // ChangePassword
+            // ChangePasswordForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(467, 230);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.changePasswordFormPasswordTextBox);
+            this.Controls.Add(this.changePasswordFormConfirmNewPasswordTextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.changePasswordFormNewPasswordTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.changePasswordFormUserNameTextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button18);
-            this.Name = "ChangePassword";
+            this.Controls.Add(this.changePasswordFormSaveBtn);
+            this.Controls.Add(this.changePasswordFormCancelBtn);
+            this.Name = "ChangePasswordForm";
             this.Text = "تغيير كلمة سر المستخدم";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -175,15 +175,15 @@ namespace GoldenPOS
         }
 
         #endregion
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox changePasswordFormConfirmNewPasswordTextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox changePasswordFormNewPasswordTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox changePasswordFormUserNameTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button changePasswordFormSaveBtn;
+        private System.Windows.Forms.Button changePasswordFormCancelBtn;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox changePasswordFormPasswordTextBox;
     }
 }

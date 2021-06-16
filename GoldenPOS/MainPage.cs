@@ -176,17 +176,18 @@ namespace GoldenPOS
 
         private void CustomerAddBtn_Click(object sender, EventArgs e)
         {
-            AddCustomer form = new AddCustomer();
+            AddCustomerForm form = new AddCustomerForm();
             form.ShowDialog();
         }
 
         private void CustomerUpdateBtn_Click(object sender, EventArgs e)
         {
-            UpdateCustomer form = new UpdateCustomer(Convert.ToInt32(customerDGV.SelectedRows[0].Cells[0]));
+            UpdateCustomerForm form = new UpdateCustomerForm(Convert.ToInt32(customerDGV.SelectedRows[0].Cells[0]));
         }
 
-        
+
 
         #endregion
+
     }
 }

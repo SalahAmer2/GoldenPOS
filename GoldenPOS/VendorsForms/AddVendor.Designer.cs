@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddVendor
+    partial class AddVendorForm
     {
         /// <summary>
         /// Required designer variable.
@@ -30,29 +30,29 @@ namespace GoldenPOS
         private void InitializeComponent()
         {
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.addVendorFormWebsiteTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.addVendorFormCommercialRegistryTextBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
+            this.addVendorFormTaxCardTextBox = new System.Windows.Forms.TextBox();
+            this.AddVendorFormAddBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.addVendorFormPhoneNumber1TextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.addVendorFormPhoneNumber2TextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.addVendorFormEmailTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.addVendorFormNameTextBox = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.addVendorFormLastBillValueTextBox = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.textBox13 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.addVendorFormDateTextBox = new System.Windows.Forms.TextBox();
+            this.addVendorFormOtherProductsTextBox = new System.Windows.Forms.TextBox();
+            this.AddVendorFormCancelBtn = new System.Windows.Forms.Button();
+            this.addVendorFormLastBillDateTextBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label10
@@ -65,12 +65,12 @@ namespace GoldenPOS
             this.label10.Text = "الموقع الالكتروني";
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox9
+            // addVendorFormWebsiteTextBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(83, 181);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(277, 20);
-            this.textBox9.TabIndex = 100;
+            this.addVendorFormWebsiteTextBox.Location = new System.Drawing.Point(83, 181);
+            this.addVendorFormWebsiteTextBox.Name = "addVendorFormWebsiteTextBox";
+            this.addVendorFormWebsiteTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormWebsiteTextBox.TabIndex = 100;
             // 
             // label9
             // 
@@ -82,12 +82,12 @@ namespace GoldenPOS
             this.label9.Text = "السجل التجاري";
             this.label9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox8
+            // addVendorFormCommercialRegistryTextBox
             // 
-            this.textBox8.Location = new System.Drawing.Point(83, 218);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(277, 20);
-            this.textBox8.TabIndex = 98;
+            this.addVendorFormCommercialRegistryTextBox.Location = new System.Drawing.Point(83, 218);
+            this.addVendorFormCommercialRegistryTextBox.Name = "addVendorFormCommercialRegistryTextBox";
+            this.addVendorFormCommercialRegistryTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormCommercialRegistryTextBox.TabIndex = 98;
             // 
             // label8
             // 
@@ -99,32 +99,32 @@ namespace GoldenPOS
             this.label8.Text = "البطاقة الضريبية";
             this.label8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox7
+            // addVendorFormTaxCardTextBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(83, 255);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(277, 20);
-            this.textBox7.TabIndex = 96;
+            this.addVendorFormTaxCardTextBox.Location = new System.Drawing.Point(83, 255);
+            this.addVendorFormTaxCardTextBox.Name = "addVendorFormTaxCardTextBox";
+            this.addVendorFormTaxCardTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormTaxCardTextBox.TabIndex = 96;
             // 
-            // button18
+            // AddVendorFormAddBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(132, 515);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 95;
-            this.button18.Text = "إضافة المورد";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddVendorFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddVendorFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddVendorFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddVendorFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddVendorFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddVendorFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddVendorFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddVendorFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddVendorFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddVendorFormAddBtn.Location = new System.Drawing.Point(132, 515);
+            this.AddVendorFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddVendorFormAddBtn.Name = "AddVendorFormAddBtn";
+            this.AddVendorFormAddBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddVendorFormAddBtn.TabIndex = 95;
+            this.AddVendorFormAddBtn.Text = "إضافة المورد";
+            this.AddVendorFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddVendorFormAddBtn.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -146,12 +146,12 @@ namespace GoldenPOS
             this.label4.Text = "رقم التليفون 1";
             this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox4
+            // addVendorFormPhoneNumber1TextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(83, 70);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(277, 20);
-            this.textBox4.TabIndex = 87;
+            this.addVendorFormPhoneNumber1TextBox.Location = new System.Drawing.Point(83, 70);
+            this.addVendorFormPhoneNumber1TextBox.Name = "addVendorFormPhoneNumber1TextBox";
+            this.addVendorFormPhoneNumber1TextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormPhoneNumber1TextBox.TabIndex = 87;
             // 
             // label3
             // 
@@ -163,12 +163,12 @@ namespace GoldenPOS
             this.label3.Text = "رقم التليفون 2";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox3
+            // addVendorFormPhoneNumber2TextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(83, 107);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 20);
-            this.textBox3.TabIndex = 85;
+            this.addVendorFormPhoneNumber2TextBox.Location = new System.Drawing.Point(83, 107);
+            this.addVendorFormPhoneNumber2TextBox.Name = "addVendorFormPhoneNumber2TextBox";
+            this.addVendorFormPhoneNumber2TextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormPhoneNumber2TextBox.TabIndex = 85;
             // 
             // label2
             // 
@@ -180,12 +180,12 @@ namespace GoldenPOS
             this.label2.Text = "البريد الإكتروني";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox2
+            // addVendorFormEmailTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(83, 144);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 20);
-            this.textBox2.TabIndex = 83;
+            this.addVendorFormEmailTextBox.Location = new System.Drawing.Point(83, 144);
+            this.addVendorFormEmailTextBox.Name = "addVendorFormEmailTextBox";
+            this.addVendorFormEmailTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormEmailTextBox.TabIndex = 83;
             // 
             // label1
             // 
@@ -197,12 +197,12 @@ namespace GoldenPOS
             this.label1.Text = "اسم المورد";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox1
+            // addVendorFormNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(83, 32);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
-            this.textBox1.TabIndex = 81;
+            this.addVendorFormNameTextBox.Location = new System.Drawing.Point(83, 32);
+            this.addVendorFormNameTextBox.Name = "addVendorFormNameTextBox";
+            this.addVendorFormNameTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormNameTextBox.TabIndex = 81;
             // 
             // label11
             // 
@@ -217,19 +217,19 @@ namespace GoldenPOS
             // label12
             // 
             this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(423, 332);
+            this.label12.Location = new System.Drawing.Point(454, 332);
             this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 13);
+            this.label12.Size = new System.Drawing.Size(38, 13);
             this.label12.TabIndex = 105;
-            this.label12.Text = "إختيار التاريخ";
+            this.label12.Text = "التاريخ";
             this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox11
+            // addVendorFormLastBillValueTextBox
             // 
-            this.textBox11.Location = new System.Drawing.Point(83, 292);
-            this.textBox11.Name = "textBox11";
-            this.textBox11.Size = new System.Drawing.Size(277, 20);
-            this.textBox11.TabIndex = 104;
+            this.addVendorFormLastBillValueTextBox.Location = new System.Drawing.Point(83, 292);
+            this.addVendorFormLastBillValueTextBox.Name = "addVendorFormLastBillValueTextBox";
+            this.addVendorFormLastBillValueTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormLastBillValueTextBox.TabIndex = 104;
             // 
             // label13
             // 
@@ -241,79 +241,79 @@ namespace GoldenPOS
             this.label13.Text = "تاريخ الفاتورة الأخيرة";
             this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // textBox12
+            // addVendorFormDateTextBox
             // 
-            this.textBox12.Location = new System.Drawing.Point(83, 329);
-            this.textBox12.Name = "textBox12";
-            this.textBox12.Size = new System.Drawing.Size(277, 20);
-            this.textBox12.TabIndex = 102;
+            this.addVendorFormDateTextBox.Location = new System.Drawing.Point(83, 329);
+            this.addVendorFormDateTextBox.Name = "addVendorFormDateTextBox";
+            this.addVendorFormDateTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormDateTextBox.TabIndex = 102;
             // 
-            // textBox13
+            // addVendorFormOtherProductsTextBox
             // 
-            this.textBox13.Location = new System.Drawing.Point(83, 403);
-            this.textBox13.Multiline = true;
-            this.textBox13.Name = "textBox13";
-            this.textBox13.Size = new System.Drawing.Size(277, 66);
-            this.textBox13.TabIndex = 108;
+            this.addVendorFormOtherProductsTextBox.Location = new System.Drawing.Point(83, 403);
+            this.addVendorFormOtherProductsTextBox.Multiline = true;
+            this.addVendorFormOtherProductsTextBox.Name = "addVendorFormOtherProductsTextBox";
+            this.addVendorFormOtherProductsTextBox.Size = new System.Drawing.Size(277, 66);
+            this.addVendorFormOtherProductsTextBox.TabIndex = 108;
             // 
-            // button1
+            // AddVendorFormCancelBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(11, 515);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 115;
-            this.button1.Text = "إلغاء";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddVendorFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddVendorFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddVendorFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddVendorFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddVendorFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddVendorFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddVendorFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddVendorFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddVendorFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddVendorFormCancelBtn.Location = new System.Drawing.Point(11, 515);
+            this.AddVendorFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddVendorFormCancelBtn.Name = "AddVendorFormCancelBtn";
+            this.AddVendorFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddVendorFormCancelBtn.TabIndex = 115;
+            this.AddVendorFormCancelBtn.Text = "إلغاء";
+            this.AddVendorFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddVendorFormCancelBtn.UseVisualStyleBackColor = false;
             // 
-            // textBox6
+            // addVendorFormLastBillDateTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(83, 366);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(277, 20);
-            this.textBox6.TabIndex = 116;
+            this.addVendorFormLastBillDateTextBox.Location = new System.Drawing.Point(83, 366);
+            this.addVendorFormLastBillDateTextBox.Name = "addVendorFormLastBillDateTextBox";
+            this.addVendorFormLastBillDateTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addVendorFormLastBillDateTextBox.TabIndex = 116;
             // 
-            // AddVendor
+            // AddVendorForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(505, 549);
-            this.Controls.Add(this.textBox6);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox13);
+            this.Controls.Add(this.addVendorFormLastBillDateTextBox);
+            this.Controls.Add(this.AddVendorFormCancelBtn);
+            this.Controls.Add(this.addVendorFormOtherProductsTextBox);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label12);
-            this.Controls.Add(this.textBox11);
+            this.Controls.Add(this.addVendorFormLastBillValueTextBox);
             this.Controls.Add(this.label13);
-            this.Controls.Add(this.textBox12);
+            this.Controls.Add(this.addVendorFormDateTextBox);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.addVendorFormWebsiteTextBox);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.addVendorFormCommercialRegistryTextBox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.addVendorFormTaxCardTextBox);
+            this.Controls.Add(this.AddVendorFormAddBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.addVendorFormPhoneNumber1TextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.addVendorFormPhoneNumber2TextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.addVendorFormEmailTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Name = "AddVendor";
+            this.Controls.Add(this.addVendorFormNameTextBox);
+            this.Name = "AddVendorForm";
             this.Text = "إضافة المورد";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -323,28 +323,28 @@ namespace GoldenPOS
         #endregion
 
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
+        private System.Windows.Forms.TextBox addVendorFormWebsiteTextBox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox addVendorFormCommercialRegistryTextBox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.TextBox addVendorFormTaxCardTextBox;
+        private System.Windows.Forms.Button AddVendorFormAddBtn;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox addVendorFormPhoneNumber1TextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox addVendorFormPhoneNumber2TextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox addVendorFormEmailTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox addVendorFormNameTextBox;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox addVendorFormLastBillValueTextBox;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.TextBox textBox12;
-        private System.Windows.Forms.TextBox textBox13;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox addVendorFormDateTextBox;
+        private System.Windows.Forms.TextBox addVendorFormOtherProductsTextBox;
+        private System.Windows.Forms.Button AddVendorFormCancelBtn;
+        private System.Windows.Forms.TextBox addVendorFormLastBillDateTextBox;
     }
 }

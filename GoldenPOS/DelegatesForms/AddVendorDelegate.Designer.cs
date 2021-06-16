@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddVendorDelegate
+    partial class AddVendorDelegateForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,75 +29,75 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
+            this.addVendorDelegateFormVendorComboBox = new System.Windows.Forms.ComboBox();
+            this.addVendorDelegateFormDelegateNameTextBox = new System.Windows.Forms.TextBox();
+            this.addVendorDelegateFormPhoneNumber1TextBox = new System.Windows.Forms.TextBox();
+            this.addVendorDelegateFormPhoneNumber2TextBox = new System.Windows.Forms.TextBox();
+            this.addVendorDelegateFormEmailTextBox = new System.Windows.Forms.TextBox();
+            this.AddVendorDelegateFormAddBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddVendorDelegateFormCancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // addVendorDelegateFormVendorComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(55, 38);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(212, 21);
-            this.comboBox1.TabIndex = 80;
+            this.addVendorDelegateFormVendorComboBox.FormattingEnabled = true;
+            this.addVendorDelegateFormVendorComboBox.Location = new System.Drawing.Point(55, 38);
+            this.addVendorDelegateFormVendorComboBox.Name = "addVendorDelegateFormVendorComboBox";
+            this.addVendorDelegateFormVendorComboBox.Size = new System.Drawing.Size(212, 21);
+            this.addVendorDelegateFormVendorComboBox.TabIndex = 80;
             // 
-            // textBox5
+            // addVendorDelegateFormDelegateNameTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(55, 72);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(212, 20);
-            this.textBox5.TabIndex = 79;
+            this.addVendorDelegateFormDelegateNameTextBox.Location = new System.Drawing.Point(55, 72);
+            this.addVendorDelegateFormDelegateNameTextBox.Name = "addVendorDelegateFormDelegateNameTextBox";
+            this.addVendorDelegateFormDelegateNameTextBox.Size = new System.Drawing.Size(212, 20);
+            this.addVendorDelegateFormDelegateNameTextBox.TabIndex = 79;
             // 
-            // textBox4
+            // addVendorDelegateFormPhoneNumber1TextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(55, 105);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(212, 20);
-            this.textBox4.TabIndex = 78;
+            this.addVendorDelegateFormPhoneNumber1TextBox.Location = new System.Drawing.Point(55, 105);
+            this.addVendorDelegateFormPhoneNumber1TextBox.Name = "addVendorDelegateFormPhoneNumber1TextBox";
+            this.addVendorDelegateFormPhoneNumber1TextBox.Size = new System.Drawing.Size(212, 20);
+            this.addVendorDelegateFormPhoneNumber1TextBox.TabIndex = 78;
             // 
-            // textBox3
+            // addVendorDelegateFormPhoneNumber2TextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(55, 138);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(212, 20);
-            this.textBox3.TabIndex = 77;
+            this.addVendorDelegateFormPhoneNumber2TextBox.Location = new System.Drawing.Point(55, 138);
+            this.addVendorDelegateFormPhoneNumber2TextBox.Name = "addVendorDelegateFormPhoneNumber2TextBox";
+            this.addVendorDelegateFormPhoneNumber2TextBox.Size = new System.Drawing.Size(212, 20);
+            this.addVendorDelegateFormPhoneNumber2TextBox.TabIndex = 77;
             // 
-            // textBox2
+            // addVendorDelegateFormEmailTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(55, 171);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(212, 20);
-            this.textBox2.TabIndex = 76;
+            this.addVendorDelegateFormEmailTextBox.Location = new System.Drawing.Point(55, 171);
+            this.addVendorDelegateFormEmailTextBox.Name = "addVendorDelegateFormEmailTextBox";
+            this.addVendorDelegateFormEmailTextBox.Size = new System.Drawing.Size(212, 20);
+            this.addVendorDelegateFormEmailTextBox.TabIndex = 76;
             // 
-            // button18
+            // AddVendorDelegateFormAddBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(129, 230);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 75;
-            this.button18.Text = "إضافة المندوب";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddVendorDelegateFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddVendorDelegateFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddVendorDelegateFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddVendorDelegateFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddVendorDelegateFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddVendorDelegateFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddVendorDelegateFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddVendorDelegateFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddVendorDelegateFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddVendorDelegateFormAddBtn.Location = new System.Drawing.Point(129, 230);
+            this.AddVendorDelegateFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddVendorDelegateFormAddBtn.Name = "AddVendorDelegateFormAddBtn";
+            this.AddVendorDelegateFormAddBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddVendorDelegateFormAddBtn.TabIndex = 75;
+            this.AddVendorDelegateFormAddBtn.Text = "إضافة";
+            this.AddVendorDelegateFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddVendorDelegateFormAddBtn.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -144,45 +144,45 @@ namespace GoldenPOS
             this.label2.TabIndex = 70;
             this.label2.Text = "البريد الإكتروني";
             // 
-            // button1
+            // AddVendorDelegateFormCancelBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(11, 230);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 81;
-            this.button1.Text = "إلغاء";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddVendorDelegateFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddVendorDelegateFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddVendorDelegateFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddVendorDelegateFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddVendorDelegateFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddVendorDelegateFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddVendorDelegateFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddVendorDelegateFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddVendorDelegateFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddVendorDelegateFormCancelBtn.Location = new System.Drawing.Point(11, 230);
+            this.AddVendorDelegateFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddVendorDelegateFormCancelBtn.Name = "AddVendorDelegateFormCancelBtn";
+            this.AddVendorDelegateFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddVendorDelegateFormCancelBtn.TabIndex = 81;
+            this.AddVendorDelegateFormCancelBtn.Text = "إلغاء";
+            this.AddVendorDelegateFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddVendorDelegateFormCancelBtn.UseVisualStyleBackColor = false;
             // 
-            // AddVendorDelegate
+            // AddVendorDelegateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(377, 264);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.AddVendorDelegateFormCancelBtn);
+            this.Controls.Add(this.addVendorDelegateFormVendorComboBox);
+            this.Controls.Add(this.addVendorDelegateFormDelegateNameTextBox);
+            this.Controls.Add(this.addVendorDelegateFormPhoneNumber1TextBox);
+            this.Controls.Add(this.addVendorDelegateFormPhoneNumber2TextBox);
+            this.Controls.Add(this.addVendorDelegateFormEmailTextBox);
+            this.Controls.Add(this.AddVendorDelegateFormAddBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Name = "AddVendorDelegate";
+            this.Name = "AddVendorDelegateForm";
             this.Text = "إضافة مندوب المورد";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -191,17 +191,17 @@ namespace GoldenPOS
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.ComboBox addVendorDelegateFormVendorComboBox;
+        private System.Windows.Forms.TextBox addVendorDelegateFormDelegateNameTextBox;
+        private System.Windows.Forms.TextBox addVendorDelegateFormPhoneNumber1TextBox;
+        private System.Windows.Forms.TextBox addVendorDelegateFormPhoneNumber2TextBox;
+        private System.Windows.Forms.TextBox addVendorDelegateFormEmailTextBox;
+        private System.Windows.Forms.Button AddVendorDelegateFormAddBtn;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddVendorDelegateFormCancelBtn;
     }
 }

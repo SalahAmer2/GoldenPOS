@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class UpdateProduct
+    partial class UpdateProductForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,43 +29,43 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.button18 = new System.Windows.Forms.Button();
+            this.UpdateProductFormCancelBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.updateProductFormProductCategoryComboBox = new System.Windows.Forms.ComboBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.updateProductFormNameTextBox = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.updateProductFormPartNumberTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.updateProductFormQuantityTextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.updateProductFormLatestCostTextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.updateProductFormPriceTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.updateProductFormCodeTextBox = new System.Windows.Forms.TextBox();
+            this.UpdateProductFormSaveBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button18
+            // UpdateProductFormCancelBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(11, 289);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 38;
-            this.button18.Text = "إلغاء";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.UpdateProductFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.UpdateProductFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.UpdateProductFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpdateProductFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.UpdateProductFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.UpdateProductFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.UpdateProductFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UpdateProductFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateProductFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.UpdateProductFormCancelBtn.Location = new System.Drawing.Point(11, 289);
+            this.UpdateProductFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.UpdateProductFormCancelBtn.Name = "UpdateProductFormCancelBtn";
+            this.UpdateProductFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.UpdateProductFormCancelBtn.TabIndex = 38;
+            this.UpdateProductFormCancelBtn.Text = "إلغاء";
+            this.UpdateProductFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.UpdateProductFormCancelBtn.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -76,13 +76,13 @@ namespace GoldenPOS
             this.label7.TabIndex = 37;
             this.label7.Text = "فئة المنتج";
             // 
-            // comboBox1
+            // updateProductFormProductCategoryComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(28, 231);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(225, 21);
-            this.comboBox1.TabIndex = 36;
+            this.updateProductFormProductCategoryComboBox.FormattingEnabled = true;
+            this.updateProductFormProductCategoryComboBox.Location = new System.Drawing.Point(28, 231);
+            this.updateProductFormProductCategoryComboBox.Name = "updateProductFormProductCategoryComboBox";
+            this.updateProductFormProductCategoryComboBox.Size = new System.Drawing.Size(225, 21);
+            this.updateProductFormProductCategoryComboBox.TabIndex = 36;
             // 
             // label6
             // 
@@ -93,12 +93,12 @@ namespace GoldenPOS
             this.label6.TabIndex = 35;
             this.label6.Text = "اسم المنتج";
             // 
-            // textBox6
+            // updateProductFormNameTextBox
             // 
-            this.textBox6.Location = new System.Drawing.Point(28, 66);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(225, 20);
-            this.textBox6.TabIndex = 34;
+            this.updateProductFormNameTextBox.Location = new System.Drawing.Point(28, 66);
+            this.updateProductFormNameTextBox.Name = "updateProductFormNameTextBox";
+            this.updateProductFormNameTextBox.Size = new System.Drawing.Size(225, 20);
+            this.updateProductFormNameTextBox.TabIndex = 34;
             // 
             // label5
             // 
@@ -109,28 +109,28 @@ namespace GoldenPOS
             this.label5.TabIndex = 33;
             this.label5.Text = "رقم القطعة";
             // 
-            // textBox5
+            // updateProductFormPartNumberTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(28, 99);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(225, 20);
-            this.textBox5.TabIndex = 32;
+            this.updateProductFormPartNumberTextBox.Location = new System.Drawing.Point(28, 99);
+            this.updateProductFormPartNumberTextBox.Name = "updateProductFormPartNumberTextBox";
+            this.updateProductFormPartNumberTextBox.Size = new System.Drawing.Size(225, 20);
+            this.updateProductFormPartNumberTextBox.TabIndex = 32;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(291, 140);
+            this.label4.Location = new System.Drawing.Point(291, 135);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(34, 13);
             this.label4.TabIndex = 31;
             this.label4.Text = "الكمية";
             // 
-            // textBox4
+            // updateProductFormQuantityTextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(28, 132);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(225, 20);
-            this.textBox4.TabIndex = 30;
+            this.updateProductFormQuantityTextBox.Location = new System.Drawing.Point(28, 132);
+            this.updateProductFormQuantityTextBox.Name = "updateProductFormQuantityTextBox";
+            this.updateProductFormQuantityTextBox.Size = new System.Drawing.Size(225, 20);
+            this.updateProductFormQuantityTextBox.TabIndex = 30;
             // 
             // label3
             // 
@@ -141,28 +141,28 @@ namespace GoldenPOS
             this.label3.TabIndex = 29;
             this.label3.Text = "التكلفة";
             // 
-            // textBox3
+            // updateProductFormLatestCostTextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(28, 165);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(225, 20);
-            this.textBox3.TabIndex = 28;
+            this.updateProductFormLatestCostTextBox.Location = new System.Drawing.Point(28, 165);
+            this.updateProductFormLatestCostTextBox.Name = "updateProductFormLatestCostTextBox";
+            this.updateProductFormLatestCostTextBox.Size = new System.Drawing.Size(225, 20);
+            this.updateProductFormLatestCostTextBox.TabIndex = 28;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(292, 206);
+            this.label2.Location = new System.Drawing.Point(292, 201);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(33, 13);
             this.label2.TabIndex = 27;
             this.label2.Text = "السعر";
             // 
-            // textBox2
+            // updateProductFormPriceTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(28, 198);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(225, 20);
-            this.textBox2.TabIndex = 26;
+            this.updateProductFormPriceTextBox.Location = new System.Drawing.Point(28, 198);
+            this.updateProductFormPriceTextBox.Name = "updateProductFormPriceTextBox";
+            this.updateProductFormPriceTextBox.Size = new System.Drawing.Size(225, 20);
+            this.updateProductFormPriceTextBox.TabIndex = 26;
             // 
             // label1
             // 
@@ -173,56 +173,56 @@ namespace GoldenPOS
             this.label1.TabIndex = 25;
             this.label1.Text = "كود المنتج";
             // 
-            // textBox1
+            // updateProductFormCodeTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(28, 33);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(225, 20);
-            this.textBox1.TabIndex = 24;
+            this.updateProductFormCodeTextBox.Location = new System.Drawing.Point(28, 33);
+            this.updateProductFormCodeTextBox.Name = "updateProductFormCodeTextBox";
+            this.updateProductFormCodeTextBox.Size = new System.Drawing.Size(225, 20);
+            this.updateProductFormCodeTextBox.TabIndex = 24;
             // 
-            // button1
+            // UpdateProductFormSaveBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(126, 289);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 39;
-            this.button1.Text = "تجديد البيانات";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.UpdateProductFormSaveBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.UpdateProductFormSaveBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.UpdateProductFormSaveBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.UpdateProductFormSaveBtn.FlatAppearance.BorderSize = 0;
+            this.UpdateProductFormSaveBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.UpdateProductFormSaveBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.UpdateProductFormSaveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UpdateProductFormSaveBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.UpdateProductFormSaveBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.UpdateProductFormSaveBtn.Location = new System.Drawing.Point(126, 289);
+            this.UpdateProductFormSaveBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.UpdateProductFormSaveBtn.Name = "UpdateProductFormSaveBtn";
+            this.UpdateProductFormSaveBtn.Size = new System.Drawing.Size(100, 23);
+            this.UpdateProductFormSaveBtn.TabIndex = 39;
+            this.UpdateProductFormSaveBtn.Text = "حفظ";
+            this.UpdateProductFormSaveBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.UpdateProductFormSaveBtn.UseVisualStyleBackColor = false;
             // 
-            // UpdateProduct
+            // UpdateProductForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(337, 323);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.UpdateProductFormSaveBtn);
+            this.Controls.Add(this.UpdateProductFormCancelBtn);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.updateProductFormProductCategoryComboBox);
             this.Controls.Add(this.label6);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.updateProductFormNameTextBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.updateProductFormPartNumberTextBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.updateProductFormQuantityTextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.updateProductFormLatestCostTextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.updateProductFormPriceTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Name = "UpdateProduct";
+            this.Controls.Add(this.updateProductFormCodeTextBox);
+            this.Name = "UpdateProductForm";
             this.Text = "تجديد بيانات المنتج";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -231,21 +231,21 @@ namespace GoldenPOS
 
         #endregion
 
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button UpdateProductFormCancelBtn;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox updateProductFormProductCategoryComboBox;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox updateProductFormNameTextBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox updateProductFormPartNumberTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox updateProductFormQuantityTextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox updateProductFormLatestCostTextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox updateProductFormPriceTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox updateProductFormCodeTextBox;
+        private System.Windows.Forms.Button UpdateProductFormSaveBtn;
     }
 }

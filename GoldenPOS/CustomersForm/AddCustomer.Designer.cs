@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddCustomer
+    partial class AddCustomerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,47 +29,47 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.button18 = new System.Windows.Forms.Button();
+            this.AddCustomerFormAddBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.addCustomerFormCustomerCategoryComboBox = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormCompAddressTextBox = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormPhoneNumber1TextBox = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormPhoneNumber2TextBox = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormEmailTextBox = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormNameTextBox = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
-            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormTaxCardTextBox = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.addCustomerFormCommercialRegistryTextBox = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
+            this.addCustomerFormWebsiteTextBox = new System.Windows.Forms.TextBox();
+            this.AddCustomerFormCancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button18
+            // AddCustomerFormAddBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(130, 392);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 53;
-            this.button18.Text = "إضافة العميل";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddCustomerFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddCustomerFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddCustomerFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddCustomerFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddCustomerFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddCustomerFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddCustomerFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddCustomerFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCustomerFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddCustomerFormAddBtn.Location = new System.Drawing.Point(130, 392);
+            this.AddCustomerFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddCustomerFormAddBtn.Name = "AddCustomerFormAddBtn";
+            this.AddCustomerFormAddBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddCustomerFormAddBtn.TabIndex = 53;
+            this.AddCustomerFormAddBtn.Text = "إضافة العميل";
+            this.AddCustomerFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddCustomerFormAddBtn.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -80,13 +80,13 @@ namespace GoldenPOS
             this.label7.TabIndex = 52;
             this.label7.Text = "فئة العميل";
             // 
-            // comboBox1
+            // addCustomerFormCustomerCategoryComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(99, 330);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(276, 21);
-            this.comboBox1.TabIndex = 51;
+            this.addCustomerFormCustomerCategoryComboBox.FormattingEnabled = true;
+            this.addCustomerFormCustomerCategoryComboBox.Location = new System.Drawing.Point(99, 330);
+            this.addCustomerFormCustomerCategoryComboBox.Name = "addCustomerFormCustomerCategoryComboBox";
+            this.addCustomerFormCustomerCategoryComboBox.Size = new System.Drawing.Size(276, 21);
+            this.addCustomerFormCustomerCategoryComboBox.TabIndex = 51;
             // 
             // label5
             // 
@@ -97,12 +97,12 @@ namespace GoldenPOS
             this.label5.TabIndex = 48;
             this.label5.Text = "عنوان الشركة";
             // 
-            // textBox5
+            // addCustomerFormCompAddressTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(99, 68);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(277, 20);
-            this.textBox5.TabIndex = 47;
+            this.addCustomerFormCompAddressTextBox.Location = new System.Drawing.Point(99, 68);
+            this.addCustomerFormCompAddressTextBox.Name = "addCustomerFormCompAddressTextBox";
+            this.addCustomerFormCompAddressTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormCompAddressTextBox.TabIndex = 47;
             // 
             // label4
             // 
@@ -113,12 +113,12 @@ namespace GoldenPOS
             this.label4.TabIndex = 46;
             this.label4.Text = "رقم التليفون 1";
             // 
-            // textBox4
+            // addCustomerFormPhoneNumber1TextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(99, 106);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(277, 20);
-            this.textBox4.TabIndex = 45;
+            this.addCustomerFormPhoneNumber1TextBox.Location = new System.Drawing.Point(99, 106);
+            this.addCustomerFormPhoneNumber1TextBox.Name = "addCustomerFormPhoneNumber1TextBox";
+            this.addCustomerFormPhoneNumber1TextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormPhoneNumber1TextBox.TabIndex = 45;
             // 
             // label3
             // 
@@ -129,12 +129,12 @@ namespace GoldenPOS
             this.label3.TabIndex = 44;
             this.label3.Text = "رقم التليفون 2";
             // 
-            // textBox3
+            // addCustomerFormPhoneNumber2TextBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(99, 142);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(277, 20);
-            this.textBox3.TabIndex = 43;
+            this.addCustomerFormPhoneNumber2TextBox.Location = new System.Drawing.Point(99, 142);
+            this.addCustomerFormPhoneNumber2TextBox.Name = "addCustomerFormPhoneNumber2TextBox";
+            this.addCustomerFormPhoneNumber2TextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormPhoneNumber2TextBox.TabIndex = 43;
             // 
             // label2
             // 
@@ -145,12 +145,12 @@ namespace GoldenPOS
             this.label2.TabIndex = 42;
             this.label2.Text = "البريد الإكتروني";
             // 
-            // textBox2
+            // addCustomerFormEmailTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(99, 181);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(277, 20);
-            this.textBox2.TabIndex = 41;
+            this.addCustomerFormEmailTextBox.Location = new System.Drawing.Point(99, 181);
+            this.addCustomerFormEmailTextBox.Name = "addCustomerFormEmailTextBox";
+            this.addCustomerFormEmailTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormEmailTextBox.TabIndex = 41;
             // 
             // label1
             // 
@@ -161,12 +161,12 @@ namespace GoldenPOS
             this.label1.TabIndex = 40;
             this.label1.Text = "اسم العميل";
             // 
-            // textBox1
+            // addCustomerFormNameTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(99, 31);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(277, 20);
-            this.textBox1.TabIndex = 39;
+            this.addCustomerFormNameTextBox.Location = new System.Drawing.Point(99, 31);
+            this.addCustomerFormNameTextBox.Name = "addCustomerFormNameTextBox";
+            this.addCustomerFormNameTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormNameTextBox.TabIndex = 39;
             // 
             // label8
             // 
@@ -177,12 +177,12 @@ namespace GoldenPOS
             this.label8.TabIndex = 55;
             this.label8.Text = "البطاقة الضريبية";
             // 
-            // textBox7
+            // addCustomerFormTaxCardTextBox
             // 
-            this.textBox7.Location = new System.Drawing.Point(99, 292);
-            this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(277, 20);
-            this.textBox7.TabIndex = 54;
+            this.addCustomerFormTaxCardTextBox.Location = new System.Drawing.Point(99, 292);
+            this.addCustomerFormTaxCardTextBox.Name = "addCustomerFormTaxCardTextBox";
+            this.addCustomerFormTaxCardTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormTaxCardTextBox.TabIndex = 54;
             // 
             // label9
             // 
@@ -193,12 +193,12 @@ namespace GoldenPOS
             this.label9.TabIndex = 57;
             this.label9.Text = "السجل التجاري";
             // 
-            // textBox8
+            // addCustomerFormCommercialRegistryTextBox
             // 
-            this.textBox8.Location = new System.Drawing.Point(99, 255);
-            this.textBox8.Name = "textBox8";
-            this.textBox8.Size = new System.Drawing.Size(277, 20);
-            this.textBox8.TabIndex = 56;
+            this.addCustomerFormCommercialRegistryTextBox.Location = new System.Drawing.Point(99, 255);
+            this.addCustomerFormCommercialRegistryTextBox.Name = "addCustomerFormCommercialRegistryTextBox";
+            this.addCustomerFormCommercialRegistryTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormCommercialRegistryTextBox.TabIndex = 56;
             // 
             // label10
             // 
@@ -209,60 +209,60 @@ namespace GoldenPOS
             this.label10.TabIndex = 59;
             this.label10.Text = "الموقع الالكتروني";
             // 
-            // textBox9
+            // addCustomerFormWebsiteTextBox
             // 
-            this.textBox9.Location = new System.Drawing.Point(99, 218);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(277, 20);
-            this.textBox9.TabIndex = 58;
+            this.addCustomerFormWebsiteTextBox.Location = new System.Drawing.Point(99, 218);
+            this.addCustomerFormWebsiteTextBox.Name = "addCustomerFormWebsiteTextBox";
+            this.addCustomerFormWebsiteTextBox.Size = new System.Drawing.Size(277, 20);
+            this.addCustomerFormWebsiteTextBox.TabIndex = 58;
             // 
-            // button1
+            // AddCustomerFormCancelBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(11, 392);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 60;
-            this.button1.Text = "إلغاء";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddCustomerFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddCustomerFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddCustomerFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddCustomerFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddCustomerFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddCustomerFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddCustomerFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddCustomerFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCustomerFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddCustomerFormCancelBtn.Location = new System.Drawing.Point(11, 392);
+            this.AddCustomerFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddCustomerFormCancelBtn.Name = "AddCustomerFormCancelBtn";
+            this.AddCustomerFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddCustomerFormCancelBtn.TabIndex = 60;
+            this.AddCustomerFormCancelBtn.Text = "إلغاء";
+            this.AddCustomerFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddCustomerFormCancelBtn.UseVisualStyleBackColor = false;
             // 
-            // AddCustomer
+            // AddCustomerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(489, 426);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.AddCustomerFormCancelBtn);
             this.Controls.Add(this.label10);
-            this.Controls.Add(this.textBox9);
+            this.Controls.Add(this.addCustomerFormWebsiteTextBox);
             this.Controls.Add(this.label9);
-            this.Controls.Add(this.textBox8);
+            this.Controls.Add(this.addCustomerFormCommercialRegistryTextBox);
             this.Controls.Add(this.label8);
-            this.Controls.Add(this.textBox7);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.addCustomerFormTaxCardTextBox);
+            this.Controls.Add(this.AddCustomerFormAddBtn);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.addCustomerFormCustomerCategoryComboBox);
             this.Controls.Add(this.label5);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.addCustomerFormCompAddressTextBox);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBox4);
+            this.Controls.Add(this.addCustomerFormPhoneNumber1TextBox);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.addCustomerFormPhoneNumber2TextBox);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.addCustomerFormEmailTextBox);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Name = "AddCustomer";
+            this.Controls.Add(this.addCustomerFormNameTextBox);
+            this.Name = "AddCustomerForm";
             this.Text = "إضافة عميل";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -271,25 +271,25 @@ namespace GoldenPOS
 
         #endregion
 
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.Button AddCustomerFormAddBtn;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox addCustomerFormCustomerCategoryComboBox;
         private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox addCustomerFormCompAddressTextBox;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox addCustomerFormPhoneNumber1TextBox;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox addCustomerFormPhoneNumber2TextBox;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox addCustomerFormEmailTextBox;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox addCustomerFormNameTextBox;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.TextBox addCustomerFormTaxCardTextBox;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox textBox8;
+        private System.Windows.Forms.TextBox addCustomerFormCommercialRegistryTextBox;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox addCustomerFormWebsiteTextBox;
+        private System.Windows.Forms.Button AddCustomerFormCancelBtn;
     }
 }

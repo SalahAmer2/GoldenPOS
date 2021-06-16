@@ -1,7 +1,7 @@
 ﻿
 namespace GoldenPOS
 {
-    partial class AddCustomerDelegate
+    partial class AddCustomerDelegateForm
     {
         /// <summary>
         /// Required designer variable.
@@ -29,75 +29,75 @@ namespace GoldenPOS
         /// </summary>
         private void InitializeComponent()
         {
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.button18 = new System.Windows.Forms.Button();
+            this.addCustomerDelegateFormCustomerComboBox = new System.Windows.Forms.ComboBox();
+            this.addCustomerDelegateFormDelegateNameTextBox = new System.Windows.Forms.TextBox();
+            this.addCustomerDelegateFormPhoneNumber1TextBox = new System.Windows.Forms.TextBox();
+            this.addCustomerDelegateFormPhoneNumber2TexBox = new System.Windows.Forms.TextBox();
+            this.addCustomerDelegateFormEmailTextBox = new System.Windows.Forms.TextBox();
+            this.AddCustomerDelegateFormAddBtn = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
+            this.AddCustomerDelegateFormCancelBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // comboBox1
+            // addCustomerDelegateFormCustomerComboBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(72, 35);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(177, 21);
-            this.comboBox1.TabIndex = 58;
+            this.addCustomerDelegateFormCustomerComboBox.FormattingEnabled = true;
+            this.addCustomerDelegateFormCustomerComboBox.Location = new System.Drawing.Point(72, 35);
+            this.addCustomerDelegateFormCustomerComboBox.Name = "addCustomerDelegateFormCustomerComboBox";
+            this.addCustomerDelegateFormCustomerComboBox.Size = new System.Drawing.Size(177, 21);
+            this.addCustomerDelegateFormCustomerComboBox.TabIndex = 58;
             // 
-            // textBox5
+            // addCustomerDelegateFormDelegateNameTextBox
             // 
-            this.textBox5.Location = new System.Drawing.Point(72, 69);
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(177, 20);
-            this.textBox5.TabIndex = 56;
+            this.addCustomerDelegateFormDelegateNameTextBox.Location = new System.Drawing.Point(72, 69);
+            this.addCustomerDelegateFormDelegateNameTextBox.Name = "addCustomerDelegateFormDelegateNameTextBox";
+            this.addCustomerDelegateFormDelegateNameTextBox.Size = new System.Drawing.Size(177, 20);
+            this.addCustomerDelegateFormDelegateNameTextBox.TabIndex = 56;
             // 
-            // textBox4
+            // addCustomerDelegateFormPhoneNumber1TextBox
             // 
-            this.textBox4.Location = new System.Drawing.Point(72, 102);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(177, 20);
-            this.textBox4.TabIndex = 55;
+            this.addCustomerDelegateFormPhoneNumber1TextBox.Location = new System.Drawing.Point(72, 102);
+            this.addCustomerDelegateFormPhoneNumber1TextBox.Name = "addCustomerDelegateFormPhoneNumber1TextBox";
+            this.addCustomerDelegateFormPhoneNumber1TextBox.Size = new System.Drawing.Size(177, 20);
+            this.addCustomerDelegateFormPhoneNumber1TextBox.TabIndex = 55;
             // 
-            // textBox3
+            // addCustomerDelegateFormPhoneNumber2TexBox
             // 
-            this.textBox3.Location = new System.Drawing.Point(72, 135);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(177, 20);
-            this.textBox3.TabIndex = 54;
+            this.addCustomerDelegateFormPhoneNumber2TexBox.Location = new System.Drawing.Point(72, 135);
+            this.addCustomerDelegateFormPhoneNumber2TexBox.Name = "addCustomerDelegateFormPhoneNumber2TexBox";
+            this.addCustomerDelegateFormPhoneNumber2TexBox.Size = new System.Drawing.Size(177, 20);
+            this.addCustomerDelegateFormPhoneNumber2TexBox.TabIndex = 54;
             // 
-            // textBox2
+            // addCustomerDelegateFormEmailTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(72, 168);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 20);
-            this.textBox2.TabIndex = 53;
+            this.addCustomerDelegateFormEmailTextBox.Location = new System.Drawing.Point(72, 168);
+            this.addCustomerDelegateFormEmailTextBox.Name = "addCustomerDelegateFormEmailTextBox";
+            this.addCustomerDelegateFormEmailTextBox.Size = new System.Drawing.Size(177, 20);
+            this.addCustomerDelegateFormEmailTextBox.TabIndex = 53;
             // 
-            // button18
+            // AddCustomerDelegateFormAddBtn
             // 
-            this.button18.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button18.Location = new System.Drawing.Point(132, 227);
-            this.button18.Margin = new System.Windows.Forms.Padding(2);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(100, 23);
-            this.button18.TabIndex = 51;
-            this.button18.Text = "إضافة المندوب";
-            this.button18.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button18.UseVisualStyleBackColor = false;
+            this.AddCustomerDelegateFormAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddCustomerDelegateFormAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddCustomerDelegateFormAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddCustomerDelegateFormAddBtn.FlatAppearance.BorderSize = 0;
+            this.AddCustomerDelegateFormAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddCustomerDelegateFormAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddCustomerDelegateFormAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddCustomerDelegateFormAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCustomerDelegateFormAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddCustomerDelegateFormAddBtn.Location = new System.Drawing.Point(132, 227);
+            this.AddCustomerDelegateFormAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddCustomerDelegateFormAddBtn.Name = "AddCustomerDelegateFormAddBtn";
+            this.AddCustomerDelegateFormAddBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddCustomerDelegateFormAddBtn.TabIndex = 51;
+            this.AddCustomerDelegateFormAddBtn.Text = "إضافة";
+            this.AddCustomerDelegateFormAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddCustomerDelegateFormAddBtn.UseVisualStyleBackColor = false;
             // 
             // label7
             // 
@@ -144,45 +144,45 @@ namespace GoldenPOS
             this.label2.TabIndex = 45;
             this.label2.Text = "البريد الإكتروني";
             // 
-            // button1
+            // AddCustomerDelegateFormCancelBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(9, 227);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(100, 23);
-            this.button1.TabIndex = 59;
-            this.button1.Text = "إلغاء";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.AddCustomerDelegateFormCancelBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.AddCustomerDelegateFormCancelBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.AddCustomerDelegateFormCancelBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.AddCustomerDelegateFormCancelBtn.FlatAppearance.BorderSize = 0;
+            this.AddCustomerDelegateFormCancelBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.AddCustomerDelegateFormCancelBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.AddCustomerDelegateFormCancelBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.AddCustomerDelegateFormCancelBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddCustomerDelegateFormCancelBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.AddCustomerDelegateFormCancelBtn.Location = new System.Drawing.Point(9, 227);
+            this.AddCustomerDelegateFormCancelBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.AddCustomerDelegateFormCancelBtn.Name = "AddCustomerDelegateFormCancelBtn";
+            this.AddCustomerDelegateFormCancelBtn.Size = new System.Drawing.Size(100, 23);
+            this.AddCustomerDelegateFormCancelBtn.TabIndex = 59;
+            this.AddCustomerDelegateFormCancelBtn.Text = "إلغاء";
+            this.AddCustomerDelegateFormCancelBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.AddCustomerDelegateFormCancelBtn.UseVisualStyleBackColor = false;
             // 
-            // AddCustomerDelegate
+            // AddCustomerDelegateForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.ClientSize = new System.Drawing.Size(361, 268);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.textBox5);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.button18);
+            this.Controls.Add(this.AddCustomerDelegateFormCancelBtn);
+            this.Controls.Add(this.addCustomerDelegateFormCustomerComboBox);
+            this.Controls.Add(this.addCustomerDelegateFormDelegateNameTextBox);
+            this.Controls.Add(this.addCustomerDelegateFormPhoneNumber1TextBox);
+            this.Controls.Add(this.addCustomerDelegateFormPhoneNumber2TexBox);
+            this.Controls.Add(this.addCustomerDelegateFormEmailTextBox);
+            this.Controls.Add(this.AddCustomerDelegateFormAddBtn);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
-            this.Name = "AddCustomerDelegate";
+            this.Name = "AddCustomerDelegateForm";
             this.Text = "إضافة مندوب العميل";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -191,17 +191,17 @@ namespace GoldenPOS
 
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.Button button18;
+        private System.Windows.Forms.ComboBox addCustomerDelegateFormCustomerComboBox;
+        private System.Windows.Forms.TextBox addCustomerDelegateFormDelegateNameTextBox;
+        private System.Windows.Forms.TextBox addCustomerDelegateFormPhoneNumber1TextBox;
+        private System.Windows.Forms.TextBox addCustomerDelegateFormPhoneNumber2TexBox;
+        private System.Windows.Forms.TextBox addCustomerDelegateFormEmailTextBox;
+        private System.Windows.Forms.Button AddCustomerDelegateFormAddBtn;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddCustomerDelegateFormCancelBtn;
     }
 }
