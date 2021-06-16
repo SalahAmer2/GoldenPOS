@@ -244,6 +244,7 @@ namespace GoldenPOS
             this.Controls.Add(this.textBox1);
             this.Name = "UpdateCustomer";
             this.Text = "تجديد بيانات العميل";
+            this.Load += new System.EventHandler(this.UpdateCustomer_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -12,10 +12,19 @@ namespace GoldenPOS
 {
     public partial class UpdateCustomer : Form
     {
-        public UpdateCustomer()
+        int customerID;
+        public UpdateCustomer(int ID)
         {
             InitializeComponent();
+            customerID = ID;
         }
 
+        private void UpdateCustomer_Load(object sender, EventArgs e)
+        {
+            Dictionary<string, string> customer = DataManager.GetOneCustomerAllInfoByID(customerID);
+
+            textBox1.Text = customer["name"];
+
+        }
     }
 }

@@ -23,3 +23,28 @@ D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateProductCategory.re
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateUser.resources
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateVendor.resources
 D:\ERP Projects\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateVendorDelegate.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\bin\Debug\GoldenPOS.exe.config
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\bin\Debug\GoldenPOS.exe
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\bin\Debug\GoldenPOS.pdb
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.AssemblyReference.cache
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddCustomer.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddCustomerDelegate.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddProduct.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddProductCategory.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddUser.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddVendor.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.AddVendorDelegate.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.ChangePassword.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.MainPage.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.Properties.Resources.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateCustomer.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateCustomerDelegate.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateProduct.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateProductCategory.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateUser.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateVendor.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.UpdateVendorDelegate.resources
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.GenerateResource.cache
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.csproj.CoreCompileInputs.cache
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.exe
+D:\myVSProjects\GoldenPOS\GoldenPOS\GoldenPOS\obj\Debug\GoldenPOS.pdb

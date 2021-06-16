@@ -30,22 +30,22 @@ namespace GoldenPOS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainPage));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle16 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle33 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle34 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle35 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle36 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle37 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle38 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle39 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle40 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle41 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle42 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle43 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle44 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle45 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle46 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle47 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle48 = new System.Windows.Forms.DataGridViewCellStyle();
             this.MenuPanel = new System.Windows.Forms.Panel();
             this.UsersBtn = new System.Windows.Forms.Button();
             this.CategoriesBtn = new System.Windows.Forms.Button();
@@ -76,48 +76,49 @@ namespace GoldenPOS
             this.AppPages = new System.Windows.Forms.TabControl();
             this.dashTab = new System.Windows.Forms.TabPage();
             this.customersTab = new System.Windows.Forms.TabPage();
+            this.customerTab = new System.Windows.Forms.TabControl();
+            this.customerPage = new System.Windows.Forms.TabPage();
+            this.customerDeleteBtn = new System.Windows.Forms.Button();
+            this.CustomerUpdateBtn = new System.Windows.Forms.Button();
+            this.CustomerAddBtn = new System.Windows.Forms.Button();
+            this.customerShowDetailsBtn = new System.Windows.Forms.Button();
+            this.customerDGV = new System.Windows.Forms.DataGridView();
+            this.customerTypePage = new System.Windows.Forms.TabPage();
+            this.customerTypeDeleteBtn = new System.Windows.Forms.Button();
+            this.customerTypeUpdateBtn = new System.Windows.Forms.Button();
+            this.customerTypeAddBtn = new System.Windows.Forms.Button();
+            this.customerTypeShowDetailsBtn = new System.Windows.Forms.Button();
+            this.customerTypeDGV = new System.Windows.Forms.DataGridView();
+            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vendorsTab = new System.Windows.Forms.TabPage();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.vendorDeleteBtn = new System.Windows.Forms.Button();
+            this.vendorUpdateBtn = new System.Windows.Forms.Button();
+            this.vendorAddBtn = new System.Windows.Forms.Button();
+            this.vendorShowDetailsBtn = new System.Windows.Forms.Button();
+            this.vendorDGV = new System.Windows.Forms.DataGridView();
             this.delegatesTab = new System.Windows.Forms.TabPage();
             this.delegateTab = new System.Windows.Forms.TabControl();
-            this.customerDelegatePage = new System.Windows.Forms.TabPage();
-            this.customerDelegateDeleteBtn = new System.Windows.Forms.Button();
-            this.customerDelegateUpdateBtn = new System.Windows.Forms.Button();
-            this.customerDelegateAddBtn = new System.Windows.Forms.Button();
-            this.customerDelegateShowDetailsBtn = new System.Windows.Forms.Button();
-            this.customerDelegateDGV = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.vendorDelegatePage = new System.Windows.Forms.TabPage();
             this.vendorDelegateDeleteBtn = new System.Windows.Forms.Button();
             this.vendorDelegateUpdateBtn = new System.Windows.Forms.Button();
             this.vendorDelegateAddBtn = new System.Windows.Forms.Button();
             this.vendorDelegateShowDetailsBtn = new System.Windows.Forms.Button();
             this.vendorDelegateDGV = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn17 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn18 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn19 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn20 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.customerDelegatePage = new System.Windows.Forms.TabPage();
+            this.customerDelegateDeleteBtn = new System.Windows.Forms.Button();
+            this.customerDelegateUpdateBtn = new System.Windows.Forms.Button();
+            this.customerDelegateAddBtn = new System.Windows.Forms.Button();
+            this.customerDelegateShowDetailsBtn = new System.Windows.Forms.Button();
+            this.customerDelegateDGV = new System.Windows.Forms.DataGridView();
             this.productsTab = new System.Windows.Forms.TabPage();
             this.button10 = new System.Windows.Forms.Button();
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
-            this.dataGridView3 = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.productsDGV = new System.Windows.Forms.DataGridView();
             this.categoriesTab = new System.Windows.Forms.TabPage();
             this.button14 = new System.Windows.Forms.Button();
             this.button15 = new System.Windows.Forms.Button();
@@ -138,52 +139,31 @@ namespace GoldenPOS
             this.dataGridViewTextBoxColumn14 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn15 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn16 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.customerTab = new System.Windows.Forms.TabControl();
-            this.customerPage = new System.Windows.Forms.TabPage();
-            this.customerTypePage = new System.Windows.Forms.TabPage();
-            this.customerTypeDeleteBtn = new System.Windows.Forms.Button();
-            this.customerTypeUpdateBtn = new System.Windows.Forms.Button();
-            this.customerTypeAddBtn = new System.Windows.Forms.Button();
-            this.customerTypeShowDetailsBtn = new System.Windows.Forms.Button();
-            this.customerTypeDGV = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn25 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn26 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn27 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn28 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.customerDeleteBtn = new System.Windows.Forms.Button();
-            this.customerUpdateBtn = new System.Windows.Forms.Button();
-            this.customerAddBtn = new System.Windows.Forms.Button();
-            this.customerShowDetailsBtn = new System.Windows.Forms.Button();
-            this.customerDGV = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn21 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn22 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn23 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn24 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.MenuPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel1.SuspendLayout();
             this.AppPages.SuspendLayout();
             this.dashTab.SuspendLayout();
             this.customersTab.SuspendLayout();
+            this.customerTab.SuspendLayout();
+            this.customerPage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customerDGV)).BeginInit();
+            this.customerTypePage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customerTypeDGV)).BeginInit();
             this.vendorsTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vendorDGV)).BeginInit();
             this.delegatesTab.SuspendLayout();
             this.delegateTab.SuspendLayout();
-            this.customerDelegatePage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customerDelegateDGV)).BeginInit();
             this.vendorDelegatePage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.vendorDelegateDGV)).BeginInit();
+            this.customerDelegatePage.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.customerDelegateDGV)).BeginInit();
             this.productsTab.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDGV)).BeginInit();
             this.categoriesTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).BeginInit();
             this.usersTab.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).BeginInit();
-            this.customerTab.SuspendLayout();
-            this.customerPage.SuspendLayout();
-            this.customerTypePage.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.customerTypeDGV)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customerDGV)).BeginInit();
             this.SuspendLayout();
             // 
             // MenuPanel
@@ -208,7 +188,7 @@ namespace GoldenPOS
             this.MenuPanel.Location = new System.Drawing.Point(656, 0);
             this.MenuPanel.Margin = new System.Windows.Forms.Padding(2);
             this.MenuPanel.Name = "MenuPanel";
-            this.MenuPanel.Size = new System.Drawing.Size(182, 574);
+            this.MenuPanel.Size = new System.Drawing.Size(195, 574);
             this.MenuPanel.TabIndex = 0;
             // 
             // UsersBtn
@@ -222,7 +202,7 @@ namespace GoldenPOS
             this.UsersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UsersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UsersBtn.Image = ((System.Drawing.Image)(resources.GetObject("UsersBtn.Image")));
-            this.UsersBtn.Location = new System.Drawing.Point(-2, 302);
+            this.UsersBtn.Location = new System.Drawing.Point(11, 302);
             this.UsersBtn.Margin = new System.Windows.Forms.Padding(2);
             this.UsersBtn.Name = "UsersBtn";
             this.UsersBtn.Size = new System.Drawing.Size(186, 37);
@@ -244,7 +224,7 @@ namespace GoldenPOS
             this.CategoriesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CategoriesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CategoriesBtn.Image = ((System.Drawing.Image)(resources.GetObject("CategoriesBtn.Image")));
-            this.CategoriesBtn.Location = new System.Drawing.Point(-2, 264);
+            this.CategoriesBtn.Location = new System.Drawing.Point(11, 264);
             this.CategoriesBtn.Margin = new System.Windows.Forms.Padding(2);
             this.CategoriesBtn.Name = "CategoriesBtn";
             this.CategoriesBtn.Size = new System.Drawing.Size(186, 37);
@@ -265,7 +245,7 @@ namespace GoldenPOS
             this.button7.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
             this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button7.Location = new System.Drawing.Point(45, 492);
+            this.button7.Location = new System.Drawing.Point(58, 492);
             this.button7.Margin = new System.Windows.Forms.Padding(2);
             this.button7.Name = "button7";
             this.button7.Size = new System.Drawing.Size(91, 28);
@@ -279,7 +259,7 @@ namespace GoldenPOS
             this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(245)))));
-            this.label2.Location = new System.Drawing.Point(60, 471);
+            this.label2.Location = new System.Drawing.Point(73, 471);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(59, 13);
             this.label2.TabIndex = 7;
@@ -291,7 +271,7 @@ namespace GoldenPOS
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(243)))), ((int)(((byte)(245)))));
-            this.label1.Location = new System.Drawing.Point(61, 450);
+            this.label1.Location = new System.Drawing.Point(74, 450);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(56, 13);
             this.label1.TabIndex = 6;
@@ -309,7 +289,7 @@ namespace GoldenPOS
             this.CustomersBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CustomersBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CustomersBtn.Image = ((System.Drawing.Image)(resources.GetObject("CustomersBtn.Image")));
-            this.CustomersBtn.Location = new System.Drawing.Point(-2, 112);
+            this.CustomersBtn.Location = new System.Drawing.Point(11, 112);
             this.CustomersBtn.Margin = new System.Windows.Forms.Padding(2);
             this.CustomersBtn.Name = "CustomersBtn";
             this.CustomersBtn.Size = new System.Drawing.Size(185, 37);
@@ -331,7 +311,7 @@ namespace GoldenPOS
             this.VendorsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.VendorsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.VendorsBtn.Image = ((System.Drawing.Image)(resources.GetObject("VendorsBtn.Image")));
-            this.VendorsBtn.Location = new System.Drawing.Point(-2, 150);
+            this.VendorsBtn.Location = new System.Drawing.Point(11, 150);
             this.VendorsBtn.Margin = new System.Windows.Forms.Padding(2);
             this.VendorsBtn.Name = "VendorsBtn";
             this.VendorsBtn.Size = new System.Drawing.Size(185, 37);
@@ -353,7 +333,7 @@ namespace GoldenPOS
             this.DelegatesBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DelegatesBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DelegatesBtn.Image = ((System.Drawing.Image)(resources.GetObject("DelegatesBtn.Image")));
-            this.DelegatesBtn.Location = new System.Drawing.Point(-2, 188);
+            this.DelegatesBtn.Location = new System.Drawing.Point(11, 188);
             this.DelegatesBtn.Margin = new System.Windows.Forms.Padding(2);
             this.DelegatesBtn.Name = "DelegatesBtn";
             this.DelegatesBtn.Size = new System.Drawing.Size(186, 37);
@@ -375,7 +355,7 @@ namespace GoldenPOS
             this.ProductsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ProductsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ProductsBtn.Image = ((System.Drawing.Image)(resources.GetObject("ProductsBtn.Image")));
-            this.ProductsBtn.Location = new System.Drawing.Point(-2, 226);
+            this.ProductsBtn.Location = new System.Drawing.Point(11, 226);
             this.ProductsBtn.Margin = new System.Windows.Forms.Padding(2);
             this.ProductsBtn.Name = "ProductsBtn";
             this.ProductsBtn.Size = new System.Drawing.Size(187, 37);
@@ -397,7 +377,7 @@ namespace GoldenPOS
             this.DashBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.DashBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.DashBtn.Image = ((System.Drawing.Image)(resources.GetObject("DashBtn.Image")));
-            this.DashBtn.Location = new System.Drawing.Point(-2, 74);
+            this.DashBtn.Location = new System.Drawing.Point(11, 74);
             this.DashBtn.Margin = new System.Windows.Forms.Padding(2);
             this.DashBtn.Name = "DashBtn";
             this.DashBtn.Size = new System.Drawing.Size(185, 37);
@@ -413,7 +393,7 @@ namespace GoldenPOS
             this.CompanyLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.CompanyLabel.AutoSize = true;
             this.CompanyLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CompanyLabel.Location = new System.Drawing.Point(16, 18);
+            this.CompanyLabel.Location = new System.Drawing.Point(29, 18);
             this.CompanyLabel.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.CompanyLabel.Name = "CompanyLabel";
             this.CompanyLabel.Size = new System.Drawing.Size(104, 25);
@@ -424,7 +404,7 @@ namespace GoldenPOS
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.pictureBox1.Location = new System.Drawing.Point(125, 10);
+            this.pictureBox1.Location = new System.Drawing.Point(138, 10);
             this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(48, 41);
@@ -436,7 +416,7 @@ namespace GoldenPOS
             this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
             this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(31, 440);
+            this.panel1.Location = new System.Drawing.Point(44, 440);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(120, 112);
             this.panel1.TabIndex = 0;
@@ -669,7 +649,7 @@ namespace GoldenPOS
             this.AppPages.Location = new System.Drawing.Point(1, 3);
             this.AppPages.Name = "AppPages";
             this.AppPages.SelectedIndex = 0;
-            this.AppPages.Size = new System.Drawing.Size(644, 545);
+            this.AppPages.Size = new System.Drawing.Size(657, 571);
             this.AppPages.TabIndex = 23;
             // 
             // dashTab
@@ -687,7 +667,7 @@ namespace GoldenPOS
             this.dashTab.Location = new System.Drawing.Point(4, 22);
             this.dashTab.Name = "dashTab";
             this.dashTab.Padding = new System.Windows.Forms.Padding(3);
-            this.dashTab.Size = new System.Drawing.Size(644, 545);
+            this.dashTab.Size = new System.Drawing.Size(649, 545);
             this.dashTab.TabIndex = 0;
             this.dashTab.Text = "dash";
             // 
@@ -698,173 +678,460 @@ namespace GoldenPOS
             this.customersTab.Location = new System.Drawing.Point(4, 22);
             this.customersTab.Name = "customersTab";
             this.customersTab.Padding = new System.Windows.Forms.Padding(3);
-            this.customersTab.Size = new System.Drawing.Size(636, 519);
+            this.customersTab.Size = new System.Drawing.Size(649, 545);
             this.customersTab.TabIndex = 1;
             this.customersTab.Text = "cust";
+            // 
+            // customerTab
+            // 
+            this.customerTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerTab.Controls.Add(this.customerPage);
+            this.customerTab.Controls.Add(this.customerTypePage);
+            this.customerTab.Location = new System.Drawing.Point(-4, 3);
+            this.customerTab.Name = "customerTab";
+            this.customerTab.SelectedIndex = 0;
+            this.customerTab.Size = new System.Drawing.Size(657, 546);
+            this.customerTab.TabIndex = 1;
+            // 
+            // customerPage
+            // 
+            this.customerPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerPage.Controls.Add(this.customerDeleteBtn);
+            this.customerPage.Controls.Add(this.CustomerUpdateBtn);
+            this.customerPage.Controls.Add(this.CustomerAddBtn);
+            this.customerPage.Controls.Add(this.customerShowDetailsBtn);
+            this.customerPage.Controls.Add(this.customerDGV);
+            this.customerPage.Location = new System.Drawing.Point(4, 22);
+            this.customerPage.Name = "customerPage";
+            this.customerPage.Padding = new System.Windows.Forms.Padding(3);
+            this.customerPage.Size = new System.Drawing.Size(649, 520);
+            this.customerPage.TabIndex = 0;
+            this.customerPage.Text = "العملاء";
+            // 
+            // customerDeleteBtn
+            // 
+            this.customerDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerDeleteBtn.FlatAppearance.BorderSize = 0;
+            this.customerDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerDeleteBtn.Location = new System.Drawing.Point(446, 490);
+            this.customerDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDeleteBtn.Name = "customerDeleteBtn";
+            this.customerDeleteBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerDeleteBtn.TabIndex = 110;
+            this.customerDeleteBtn.Text = "حذف";
+            this.customerDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerDeleteBtn.UseVisualStyleBackColor = false;
+            // 
+            // CustomerUpdateBtn
+            // 
+            this.CustomerUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.CustomerUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.CustomerUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CustomerUpdateBtn.FlatAppearance.BorderSize = 0;
+            this.CustomerUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.CustomerUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.CustomerUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CustomerUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.CustomerUpdateBtn.Location = new System.Drawing.Point(517, 490);
+            this.CustomerUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.CustomerUpdateBtn.Name = "CustomerUpdateBtn";
+            this.CustomerUpdateBtn.Size = new System.Drawing.Size(59, 23);
+            this.CustomerUpdateBtn.TabIndex = 109;
+            this.CustomerUpdateBtn.Text = "تعديل";
+            this.CustomerUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.CustomerUpdateBtn.UseVisualStyleBackColor = false;
+            this.CustomerUpdateBtn.Click += new System.EventHandler(this.CustomerUpdateBtn_Click);
+            // 
+            // CustomerAddBtn
+            // 
+            this.CustomerAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.CustomerAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.CustomerAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.CustomerAddBtn.FlatAppearance.BorderSize = 0;
+            this.CustomerAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.CustomerAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.CustomerAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.CustomerAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.CustomerAddBtn.Location = new System.Drawing.Point(588, 490);
+            this.CustomerAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.CustomerAddBtn.Name = "CustomerAddBtn";
+            this.CustomerAddBtn.Size = new System.Drawing.Size(59, 23);
+            this.CustomerAddBtn.TabIndex = 108;
+            this.CustomerAddBtn.Text = "إضافة";
+            this.CustomerAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.CustomerAddBtn.UseVisualStyleBackColor = false;
+            this.CustomerAddBtn.Click += new System.EventHandler(this.CustomerAddBtn_Click);
+            // 
+            // customerShowDetailsBtn
+            // 
+            this.customerShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.customerShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerShowDetailsBtn.FlatAppearance.BorderSize = 0;
+            this.customerShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerShowDetailsBtn.Location = new System.Drawing.Point(6, 490);
+            this.customerShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerShowDetailsBtn.Name = "customerShowDetailsBtn";
+            this.customerShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
+            this.customerShowDetailsBtn.TabIndex = 107;
+            this.customerShowDetailsBtn.Text = "عرض التفاصيل";
+            this.customerShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerShowDetailsBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerDGV
+            // 
+            this.customerDGV.AllowUserToAddRows = false;
+            this.customerDGV.AllowUserToDeleteRows = false;
+            this.customerDGV.AllowUserToOrderColumns = true;
+            this.customerDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.customerDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle33.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle33.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle33.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle33.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle33.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle33.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle33.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.customerDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle33;
+            this.customerDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle34.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle34.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle34.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle34.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle34.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle34.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.customerDGV.DefaultCellStyle = dataGridViewCellStyle34;
+            this.customerDGV.EnableHeadersVisualStyles = false;
+            this.customerDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDGV.Location = new System.Drawing.Point(2, 65);
+            this.customerDGV.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDGV.MultiSelect = false;
+            this.customerDGV.Name = "customerDGV";
+            this.customerDGV.ReadOnly = true;
+            this.customerDGV.RowHeadersVisible = false;
+            this.customerDGV.RowTemplate.Height = 24;
+            this.customerDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.customerDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.customerDGV.Size = new System.Drawing.Size(645, 393);
+            this.customerDGV.TabIndex = 106;
+            // 
+            // customerTypePage
+            // 
+            this.customerTypePage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerTypePage.Controls.Add(this.customerTypeDeleteBtn);
+            this.customerTypePage.Controls.Add(this.customerTypeUpdateBtn);
+            this.customerTypePage.Controls.Add(this.customerTypeAddBtn);
+            this.customerTypePage.Controls.Add(this.customerTypeShowDetailsBtn);
+            this.customerTypePage.Controls.Add(this.customerTypeDGV);
+            this.customerTypePage.Location = new System.Drawing.Point(4, 22);
+            this.customerTypePage.Name = "customerTypePage";
+            this.customerTypePage.Padding = new System.Windows.Forms.Padding(3);
+            this.customerTypePage.Size = new System.Drawing.Size(649, 520);
+            this.customerTypePage.TabIndex = 1;
+            this.customerTypePage.Text = "فئات العملاء";
+            // 
+            // customerTypeDeleteBtn
+            // 
+            this.customerTypeDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerTypeDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerTypeDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerTypeDeleteBtn.FlatAppearance.BorderSize = 0;
+            this.customerTypeDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerTypeDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerTypeDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerTypeDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerTypeDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerTypeDeleteBtn.Location = new System.Drawing.Point(446, 490);
+            this.customerTypeDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerTypeDeleteBtn.Name = "customerTypeDeleteBtn";
+            this.customerTypeDeleteBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerTypeDeleteBtn.TabIndex = 105;
+            this.customerTypeDeleteBtn.Text = "حذف";
+            this.customerTypeDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerTypeDeleteBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerTypeUpdateBtn
+            // 
+            this.customerTypeUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerTypeUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerTypeUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerTypeUpdateBtn.FlatAppearance.BorderSize = 0;
+            this.customerTypeUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerTypeUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerTypeUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerTypeUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerTypeUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerTypeUpdateBtn.Location = new System.Drawing.Point(517, 490);
+            this.customerTypeUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerTypeUpdateBtn.Name = "customerTypeUpdateBtn";
+            this.customerTypeUpdateBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerTypeUpdateBtn.TabIndex = 104;
+            this.customerTypeUpdateBtn.Text = "تعديل";
+            this.customerTypeUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerTypeUpdateBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerTypeAddBtn
+            // 
+            this.customerTypeAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerTypeAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerTypeAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerTypeAddBtn.FlatAppearance.BorderSize = 0;
+            this.customerTypeAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerTypeAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerTypeAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerTypeAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerTypeAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerTypeAddBtn.Location = new System.Drawing.Point(588, 490);
+            this.customerTypeAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerTypeAddBtn.Name = "customerTypeAddBtn";
+            this.customerTypeAddBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerTypeAddBtn.TabIndex = 103;
+            this.customerTypeAddBtn.Text = "إضافة";
+            this.customerTypeAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerTypeAddBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerTypeShowDetailsBtn
+            // 
+            this.customerTypeShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.customerTypeShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerTypeShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerTypeShowDetailsBtn.FlatAppearance.BorderSize = 0;
+            this.customerTypeShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerTypeShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerTypeShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerTypeShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerTypeShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerTypeShowDetailsBtn.Location = new System.Drawing.Point(6, 490);
+            this.customerTypeShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerTypeShowDetailsBtn.Name = "customerTypeShowDetailsBtn";
+            this.customerTypeShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
+            this.customerTypeShowDetailsBtn.TabIndex = 102;
+            this.customerTypeShowDetailsBtn.Text = "عرض التفاصيل";
+            this.customerTypeShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerTypeShowDetailsBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerTypeDGV
+            // 
+            this.customerTypeDGV.AllowUserToAddRows = false;
+            this.customerTypeDGV.AllowUserToDeleteRows = false;
+            this.customerTypeDGV.AllowUserToOrderColumns = true;
+            this.customerTypeDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerTypeDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.customerTypeDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle35.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle35.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle35.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle35.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle35.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle35.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.customerTypeDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle35;
+            this.customerTypeDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.customerTypeDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.dataGridViewTextBoxColumn25,
+            this.dataGridViewTextBoxColumn26,
+            this.dataGridViewTextBoxColumn27,
+            this.dataGridViewTextBoxColumn28});
+            dataGridViewCellStyle36.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle36.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle36.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle36.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle36.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle36.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.customerTypeDGV.DefaultCellStyle = dataGridViewCellStyle36;
+            this.customerTypeDGV.EnableHeadersVisualStyles = false;
+            this.customerTypeDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerTypeDGV.Location = new System.Drawing.Point(2, 65);
+            this.customerTypeDGV.Margin = new System.Windows.Forms.Padding(2);
+            this.customerTypeDGV.MultiSelect = false;
+            this.customerTypeDGV.Name = "customerTypeDGV";
+            this.customerTypeDGV.ReadOnly = true;
+            this.customerTypeDGV.RowHeadersVisible = false;
+            this.customerTypeDGV.RowTemplate.Height = 24;
+            this.customerTypeDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.customerTypeDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.customerTypeDGV.Size = new System.Drawing.Size(645, 393);
+            this.customerTypeDGV.TabIndex = 101;
+            // 
+            // dataGridViewTextBoxColumn25
+            // 
+            this.dataGridViewTextBoxColumn25.HeaderText = "Column1";
+            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
+            this.dataGridViewTextBoxColumn25.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn26
+            // 
+            this.dataGridViewTextBoxColumn26.HeaderText = "Column2";
+            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
+            this.dataGridViewTextBoxColumn26.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn27
+            // 
+            this.dataGridViewTextBoxColumn27.HeaderText = "Column3";
+            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
+            this.dataGridViewTextBoxColumn27.ReadOnly = true;
+            // 
+            // dataGridViewTextBoxColumn28
+            // 
+            this.dataGridViewTextBoxColumn28.HeaderText = "Column4";
+            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
+            this.dataGridViewTextBoxColumn28.ReadOnly = true;
             // 
             // vendorsTab
             // 
             this.vendorsTab.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.vendorsTab.Controls.Add(this.button5);
-            this.vendorsTab.Controls.Add(this.button3);
-            this.vendorsTab.Controls.Add(this.button2);
-            this.vendorsTab.Controls.Add(this.button1);
-            this.vendorsTab.Controls.Add(this.dataGridView1);
+            this.vendorsTab.Controls.Add(this.vendorDeleteBtn);
+            this.vendorsTab.Controls.Add(this.vendorUpdateBtn);
+            this.vendorsTab.Controls.Add(this.vendorAddBtn);
+            this.vendorsTab.Controls.Add(this.vendorShowDetailsBtn);
+            this.vendorsTab.Controls.Add(this.vendorDGV);
             this.vendorsTab.Location = new System.Drawing.Point(4, 22);
             this.vendorsTab.Name = "vendorsTab";
-            this.vendorsTab.Size = new System.Drawing.Size(636, 519);
+            this.vendorsTab.Size = new System.Drawing.Size(649, 545);
             this.vendorsTab.TabIndex = 2;
             this.vendorsTab.Text = "vend";
             // 
-            // button5
+            // vendorDeleteBtn
             // 
-            this.button5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button5.Location = new System.Drawing.Point(433, 489);
-            this.button5.Margin = new System.Windows.Forms.Padding(2);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(59, 23);
-            this.button5.TabIndex = 95;
-            this.button5.Text = "حذف";
-            this.button5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button5.UseVisualStyleBackColor = false;
+            this.vendorDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.vendorDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.vendorDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vendorDeleteBtn.FlatAppearance.BorderSize = 0;
+            this.vendorDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.vendorDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.vendorDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vendorDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vendorDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.vendorDeleteBtn.Location = new System.Drawing.Point(433, 515);
+            this.vendorDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.vendorDeleteBtn.Name = "vendorDeleteBtn";
+            this.vendorDeleteBtn.Size = new System.Drawing.Size(59, 23);
+            this.vendorDeleteBtn.TabIndex = 95;
+            this.vendorDeleteBtn.Text = "حذف";
+            this.vendorDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.vendorDeleteBtn.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // vendorUpdateBtn
             // 
-            this.button3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button3.Location = new System.Drawing.Point(504, 489);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(59, 23);
-            this.button3.TabIndex = 94;
-            this.button3.Text = "تعديل";
-            this.button3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button3.UseVisualStyleBackColor = false;
+            this.vendorUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.vendorUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.vendorUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vendorUpdateBtn.FlatAppearance.BorderSize = 0;
+            this.vendorUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.vendorUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.vendorUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vendorUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vendorUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.vendorUpdateBtn.Location = new System.Drawing.Point(504, 515);
+            this.vendorUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.vendorUpdateBtn.Name = "vendorUpdateBtn";
+            this.vendorUpdateBtn.Size = new System.Drawing.Size(59, 23);
+            this.vendorUpdateBtn.TabIndex = 94;
+            this.vendorUpdateBtn.Text = "تعديل";
+            this.vendorUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.vendorUpdateBtn.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // vendorAddBtn
             // 
-            this.button2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button2.Location = new System.Drawing.Point(575, 489);
-            this.button2.Margin = new System.Windows.Forms.Padding(2);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(59, 23);
-            this.button2.TabIndex = 93;
-            this.button2.Text = "إضافة";
-            this.button2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button2.UseVisualStyleBackColor = false;
+            this.vendorAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.vendorAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.vendorAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vendorAddBtn.FlatAppearance.BorderSize = 0;
+            this.vendorAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.vendorAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.vendorAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vendorAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vendorAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.vendorAddBtn.Location = new System.Drawing.Point(575, 515);
+            this.vendorAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.vendorAddBtn.Name = "vendorAddBtn";
+            this.vendorAddBtn.Size = new System.Drawing.Size(59, 23);
+            this.vendorAddBtn.TabIndex = 93;
+            this.vendorAddBtn.Text = "إضافة";
+            this.vendorAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.vendorAddBtn.UseVisualStyleBackColor = false;
             // 
-            // button1
+            // vendorShowDetailsBtn
             // 
-            this.button1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button1.Location = new System.Drawing.Point(6, 489);
-            this.button1.Margin = new System.Windows.Forms.Padding(2);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 23);
-            this.button1.TabIndex = 92;
-            this.button1.Text = "عرض التفاصيل";
-            this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.button1.UseVisualStyleBackColor = false;
+            this.vendorShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.vendorShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.vendorShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.vendorShowDetailsBtn.FlatAppearance.BorderSize = 0;
+            this.vendorShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.vendorShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.vendorShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.vendorShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.vendorShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.vendorShowDetailsBtn.Location = new System.Drawing.Point(6, 515);
+            this.vendorShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.vendorShowDetailsBtn.Name = "vendorShowDetailsBtn";
+            this.vendorShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
+            this.vendorShowDetailsBtn.TabIndex = 92;
+            this.vendorShowDetailsBtn.Text = "عرض التفاصيل";
+            this.vendorShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.vendorShowDetailsBtn.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // vendorDGV
             // 
-            this.dataGridView1.AllowUserToAddRows = false;
-            this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AllowUserToOrderColumns = true;
-            this.dataGridView1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.vendorDGV.AllowUserToAddRows = false;
+            this.vendorDGV.AllowUserToDeleteRows = false;
+            this.vendorDGV.AllowUserToOrderColumns = true;
+            this.vendorDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4});
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            this.dataGridView1.EnableHeadersVisualStyles = false;
-            this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.dataGridView1.Location = new System.Drawing.Point(2, 90);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView1.MultiSelect = false;
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.ReadOnly = true;
-            this.dataGridView1.RowHeadersVisible = false;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(632, 367);
-            this.dataGridView1.TabIndex = 37;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "Column1";
-            this.Column1.Name = "Column1";
-            this.Column1.ReadOnly = true;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Column2";
-            this.Column2.Name = "Column2";
-            this.Column2.ReadOnly = true;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Column3";
-            this.Column3.Name = "Column3";
-            this.Column3.ReadOnly = true;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Column4";
-            this.Column4.Name = "Column4";
-            this.Column4.ReadOnly = true;
+            this.vendorDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.vendorDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle37.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle37.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle37.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle37.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle37.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle37.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle37.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.vendorDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle37;
+            this.vendorDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle38.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle38.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle38.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle38.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle38.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle38.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.vendorDGV.DefaultCellStyle = dataGridViewCellStyle38;
+            this.vendorDGV.EnableHeadersVisualStyles = false;
+            this.vendorDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.vendorDGV.Location = new System.Drawing.Point(2, 90);
+            this.vendorDGV.Margin = new System.Windows.Forms.Padding(2);
+            this.vendorDGV.MultiSelect = false;
+            this.vendorDGV.Name = "vendorDGV";
+            this.vendorDGV.ReadOnly = true;
+            this.vendorDGV.RowHeadersVisible = false;
+            this.vendorDGV.RowTemplate.Height = 24;
+            this.vendorDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.vendorDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.vendorDGV.Size = new System.Drawing.Size(632, 393);
+            this.vendorDGV.TabIndex = 37;
             // 
             // delegatesTab
             // 
@@ -872,7 +1139,7 @@ namespace GoldenPOS
             this.delegatesTab.Controls.Add(this.delegateTab);
             this.delegatesTab.Location = new System.Drawing.Point(4, 22);
             this.delegatesTab.Name = "delegatesTab";
-            this.delegatesTab.Size = new System.Drawing.Size(636, 519);
+            this.delegatesTab.Size = new System.Drawing.Size(649, 545);
             this.delegatesTab.TabIndex = 3;
             this.delegatesTab.Text = "deleg";
             // 
@@ -881,180 +1148,14 @@ namespace GoldenPOS
             this.delegateTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.delegateTab.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
             this.delegateTab.Controls.Add(this.vendorDelegatePage);
             this.delegateTab.Controls.Add(this.customerDelegatePage);
             this.delegateTab.Location = new System.Drawing.Point(-4, 3);
             this.delegateTab.Name = "delegateTab";
             this.delegateTab.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.delegateTab.SelectedIndex = 0;
-            this.delegateTab.Size = new System.Drawing.Size(636, 519);
+            this.delegateTab.Size = new System.Drawing.Size(657, 546);
             this.delegateTab.TabIndex = 0;
-            // 
-            // customerDelegatePage
-            // 
-            this.customerDelegatePage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerDelegatePage.Controls.Add(this.customerDelegateDeleteBtn);
-            this.customerDelegatePage.Controls.Add(this.customerDelegateUpdateBtn);
-            this.customerDelegatePage.Controls.Add(this.customerDelegateAddBtn);
-            this.customerDelegatePage.Controls.Add(this.customerDelegateShowDetailsBtn);
-            this.customerDelegatePage.Controls.Add(this.customerDelegateDGV);
-            this.customerDelegatePage.Location = new System.Drawing.Point(4, 25);
-            this.customerDelegatePage.Name = "customerDelegatePage";
-            this.customerDelegatePage.Padding = new System.Windows.Forms.Padding(3);
-            this.customerDelegatePage.Size = new System.Drawing.Size(628, 490);
-            this.customerDelegatePage.TabIndex = 0;
-            this.customerDelegatePage.Text = "مندوبي العملاء";
-            // 
-            // customerDelegateDeleteBtn
-            // 
-            this.customerDelegateDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerDelegateDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDelegateDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerDelegateDeleteBtn.FlatAppearance.BorderSize = 0;
-            this.customerDelegateDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerDelegateDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerDelegateDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerDelegateDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerDelegateDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerDelegateDeleteBtn.Location = new System.Drawing.Point(425, 460);
-            this.customerDelegateDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDelegateDeleteBtn.Name = "customerDelegateDeleteBtn";
-            this.customerDelegateDeleteBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerDelegateDeleteBtn.TabIndex = 105;
-            this.customerDelegateDeleteBtn.Text = "حذف";
-            this.customerDelegateDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerDelegateDeleteBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerDelegateUpdateBtn
-            // 
-            this.customerDelegateUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerDelegateUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDelegateUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerDelegateUpdateBtn.FlatAppearance.BorderSize = 0;
-            this.customerDelegateUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerDelegateUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerDelegateUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerDelegateUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerDelegateUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerDelegateUpdateBtn.Location = new System.Drawing.Point(496, 460);
-            this.customerDelegateUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDelegateUpdateBtn.Name = "customerDelegateUpdateBtn";
-            this.customerDelegateUpdateBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerDelegateUpdateBtn.TabIndex = 104;
-            this.customerDelegateUpdateBtn.Text = "تعديل";
-            this.customerDelegateUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerDelegateUpdateBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerDelegateAddBtn
-            // 
-            this.customerDelegateAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerDelegateAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDelegateAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerDelegateAddBtn.FlatAppearance.BorderSize = 0;
-            this.customerDelegateAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerDelegateAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerDelegateAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerDelegateAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerDelegateAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerDelegateAddBtn.Location = new System.Drawing.Point(567, 460);
-            this.customerDelegateAddBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDelegateAddBtn.Name = "customerDelegateAddBtn";
-            this.customerDelegateAddBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerDelegateAddBtn.TabIndex = 103;
-            this.customerDelegateAddBtn.Text = "إضافة";
-            this.customerDelegateAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerDelegateAddBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerDelegateShowDetailsBtn
-            // 
-            this.customerDelegateShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.customerDelegateShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDelegateShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerDelegateShowDetailsBtn.FlatAppearance.BorderSize = 0;
-            this.customerDelegateShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerDelegateShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerDelegateShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerDelegateShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerDelegateShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerDelegateShowDetailsBtn.Location = new System.Drawing.Point(6, 460);
-            this.customerDelegateShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDelegateShowDetailsBtn.Name = "customerDelegateShowDetailsBtn";
-            this.customerDelegateShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
-            this.customerDelegateShowDetailsBtn.TabIndex = 102;
-            this.customerDelegateShowDetailsBtn.Text = "عرض التفاصيل";
-            this.customerDelegateShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerDelegateShowDetailsBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerDelegateDGV
-            // 
-            this.customerDelegateDGV.AllowUserToAddRows = false;
-            this.customerDelegateDGV.AllowUserToDeleteRows = false;
-            this.customerDelegateDGV.AllowUserToOrderColumns = true;
-            this.customerDelegateDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerDelegateDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.customerDelegateDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.customerDelegateDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle9;
-            this.customerDelegateDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.customerDelegateDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn1,
-            this.dataGridViewTextBoxColumn2,
-            this.dataGridViewTextBoxColumn3,
-            this.dataGridViewTextBoxColumn4});
-            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.customerDelegateDGV.DefaultCellStyle = dataGridViewCellStyle10;
-            this.customerDelegateDGV.EnableHeadersVisualStyles = false;
-            this.customerDelegateDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDelegateDGV.Location = new System.Drawing.Point(2, 65);
-            this.customerDelegateDGV.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDelegateDGV.MultiSelect = false;
-            this.customerDelegateDGV.Name = "customerDelegateDGV";
-            this.customerDelegateDGV.ReadOnly = true;
-            this.customerDelegateDGV.RowHeadersVisible = false;
-            this.customerDelegateDGV.RowTemplate.Height = 24;
-            this.customerDelegateDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.customerDelegateDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.customerDelegateDGV.Size = new System.Drawing.Size(624, 363);
-            this.customerDelegateDGV.TabIndex = 101;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            this.dataGridViewTextBoxColumn1.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.HeaderText = "Column3";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            this.dataGridViewTextBoxColumn3.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.HeaderText = "Column4";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            this.dataGridViewTextBoxColumn4.ReadOnly = true;
             // 
             // vendorDelegatePage
             // 
@@ -1064,10 +1165,10 @@ namespace GoldenPOS
             this.vendorDelegatePage.Controls.Add(this.vendorDelegateAddBtn);
             this.vendorDelegatePage.Controls.Add(this.vendorDelegateShowDetailsBtn);
             this.vendorDelegatePage.Controls.Add(this.vendorDelegateDGV);
-            this.vendorDelegatePage.Location = new System.Drawing.Point(4, 25);
+            this.vendorDelegatePage.Location = new System.Drawing.Point(4, 22);
             this.vendorDelegatePage.Name = "vendorDelegatePage";
             this.vendorDelegatePage.Padding = new System.Windows.Forms.Padding(3);
-            this.vendorDelegatePage.Size = new System.Drawing.Size(628, 490);
+            this.vendorDelegatePage.Size = new System.Drawing.Size(649, 520);
             this.vendorDelegatePage.TabIndex = 1;
             this.vendorDelegatePage.Text = "مندوبي الموردين";
             // 
@@ -1082,7 +1183,7 @@ namespace GoldenPOS
             this.vendorDelegateDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vendorDelegateDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vendorDelegateDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.vendorDelegateDeleteBtn.Location = new System.Drawing.Point(425, 460);
+            this.vendorDelegateDeleteBtn.Location = new System.Drawing.Point(446, 490);
             this.vendorDelegateDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
             this.vendorDelegateDeleteBtn.Name = "vendorDelegateDeleteBtn";
             this.vendorDelegateDeleteBtn.Size = new System.Drawing.Size(59, 23);
@@ -1102,7 +1203,7 @@ namespace GoldenPOS
             this.vendorDelegateUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vendorDelegateUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vendorDelegateUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.vendorDelegateUpdateBtn.Location = new System.Drawing.Point(496, 460);
+            this.vendorDelegateUpdateBtn.Location = new System.Drawing.Point(517, 490);
             this.vendorDelegateUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
             this.vendorDelegateUpdateBtn.Name = "vendorDelegateUpdateBtn";
             this.vendorDelegateUpdateBtn.Size = new System.Drawing.Size(59, 23);
@@ -1122,7 +1223,7 @@ namespace GoldenPOS
             this.vendorDelegateAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vendorDelegateAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vendorDelegateAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.vendorDelegateAddBtn.Location = new System.Drawing.Point(567, 460);
+            this.vendorDelegateAddBtn.Location = new System.Drawing.Point(588, 490);
             this.vendorDelegateAddBtn.Margin = new System.Windows.Forms.Padding(2);
             this.vendorDelegateAddBtn.Name = "vendorDelegateAddBtn";
             this.vendorDelegateAddBtn.Size = new System.Drawing.Size(59, 23);
@@ -1142,7 +1243,7 @@ namespace GoldenPOS
             this.vendorDelegateShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.vendorDelegateShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.vendorDelegateShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.vendorDelegateShowDetailsBtn.Location = new System.Drawing.Point(6, 460);
+            this.vendorDelegateShowDetailsBtn.Location = new System.Drawing.Point(6, 490);
             this.vendorDelegateShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
             this.vendorDelegateShowDetailsBtn.Name = "vendorDelegateShowDetailsBtn";
             this.vendorDelegateShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
@@ -1161,28 +1262,23 @@ namespace GoldenPOS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.vendorDelegateDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.vendorDelegateDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle7.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle7.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle7.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle7.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle7.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.vendorDelegateDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle7;
+            dataGridViewCellStyle39.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle39.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle39.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle39.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle39.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle39.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle39.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.vendorDelegateDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle39;
             this.vendorDelegateDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.vendorDelegateDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn17,
-            this.dataGridViewTextBoxColumn18,
-            this.dataGridViewTextBoxColumn19,
-            this.dataGridViewTextBoxColumn20});
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.vendorDelegateDGV.DefaultCellStyle = dataGridViewCellStyle8;
+            dataGridViewCellStyle40.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle40.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle40.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle40.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle40.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle40.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle40.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.vendorDelegateDGV.DefaultCellStyle = dataGridViewCellStyle40;
             this.vendorDelegateDGV.EnableHeadersVisualStyles = false;
             this.vendorDelegateDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
             this.vendorDelegateDGV.Location = new System.Drawing.Point(2, 65);
@@ -1194,32 +1290,144 @@ namespace GoldenPOS
             this.vendorDelegateDGV.RowTemplate.Height = 24;
             this.vendorDelegateDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.vendorDelegateDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.vendorDelegateDGV.Size = new System.Drawing.Size(624, 363);
+            this.vendorDelegateDGV.Size = new System.Drawing.Size(645, 393);
             this.vendorDelegateDGV.TabIndex = 101;
             // 
-            // dataGridViewTextBoxColumn17
+            // customerDelegatePage
             // 
-            this.dataGridViewTextBoxColumn17.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn17.Name = "dataGridViewTextBoxColumn17";
-            this.dataGridViewTextBoxColumn17.ReadOnly = true;
+            this.customerDelegatePage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerDelegatePage.Controls.Add(this.customerDelegateDeleteBtn);
+            this.customerDelegatePage.Controls.Add(this.customerDelegateUpdateBtn);
+            this.customerDelegatePage.Controls.Add(this.customerDelegateAddBtn);
+            this.customerDelegatePage.Controls.Add(this.customerDelegateShowDetailsBtn);
+            this.customerDelegatePage.Controls.Add(this.customerDelegateDGV);
+            this.customerDelegatePage.Location = new System.Drawing.Point(4, 22);
+            this.customerDelegatePage.Name = "customerDelegatePage";
+            this.customerDelegatePage.Padding = new System.Windows.Forms.Padding(3);
+            this.customerDelegatePage.Size = new System.Drawing.Size(649, 520);
+            this.customerDelegatePage.TabIndex = 0;
+            this.customerDelegatePage.Text = "مندوبي العملاء";
             // 
-            // dataGridViewTextBoxColumn18
+            // customerDelegateDeleteBtn
             // 
-            this.dataGridViewTextBoxColumn18.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn18.Name = "dataGridViewTextBoxColumn18";
-            this.dataGridViewTextBoxColumn18.ReadOnly = true;
+            this.customerDelegateDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerDelegateDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDelegateDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerDelegateDeleteBtn.FlatAppearance.BorderSize = 0;
+            this.customerDelegateDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerDelegateDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerDelegateDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerDelegateDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerDelegateDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerDelegateDeleteBtn.Location = new System.Drawing.Point(446, 490);
+            this.customerDelegateDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDelegateDeleteBtn.Name = "customerDelegateDeleteBtn";
+            this.customerDelegateDeleteBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerDelegateDeleteBtn.TabIndex = 105;
+            this.customerDelegateDeleteBtn.Text = "حذف";
+            this.customerDelegateDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerDelegateDeleteBtn.UseVisualStyleBackColor = false;
             // 
-            // dataGridViewTextBoxColumn19
+            // customerDelegateUpdateBtn
             // 
-            this.dataGridViewTextBoxColumn19.HeaderText = "Column3";
-            this.dataGridViewTextBoxColumn19.Name = "dataGridViewTextBoxColumn19";
-            this.dataGridViewTextBoxColumn19.ReadOnly = true;
+            this.customerDelegateUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerDelegateUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDelegateUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerDelegateUpdateBtn.FlatAppearance.BorderSize = 0;
+            this.customerDelegateUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerDelegateUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerDelegateUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerDelegateUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerDelegateUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerDelegateUpdateBtn.Location = new System.Drawing.Point(517, 490);
+            this.customerDelegateUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDelegateUpdateBtn.Name = "customerDelegateUpdateBtn";
+            this.customerDelegateUpdateBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerDelegateUpdateBtn.TabIndex = 104;
+            this.customerDelegateUpdateBtn.Text = "تعديل";
+            this.customerDelegateUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerDelegateUpdateBtn.UseVisualStyleBackColor = false;
             // 
-            // dataGridViewTextBoxColumn20
+            // customerDelegateAddBtn
             // 
-            this.dataGridViewTextBoxColumn20.HeaderText = "Column4";
-            this.dataGridViewTextBoxColumn20.Name = "dataGridViewTextBoxColumn20";
-            this.dataGridViewTextBoxColumn20.ReadOnly = true;
+            this.customerDelegateAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerDelegateAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDelegateAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerDelegateAddBtn.FlatAppearance.BorderSize = 0;
+            this.customerDelegateAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerDelegateAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerDelegateAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerDelegateAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerDelegateAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerDelegateAddBtn.Location = new System.Drawing.Point(588, 490);
+            this.customerDelegateAddBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDelegateAddBtn.Name = "customerDelegateAddBtn";
+            this.customerDelegateAddBtn.Size = new System.Drawing.Size(59, 23);
+            this.customerDelegateAddBtn.TabIndex = 103;
+            this.customerDelegateAddBtn.Text = "إضافة";
+            this.customerDelegateAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerDelegateAddBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerDelegateShowDetailsBtn
+            // 
+            this.customerDelegateShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.customerDelegateShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDelegateShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.customerDelegateShowDetailsBtn.FlatAppearance.BorderSize = 0;
+            this.customerDelegateShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
+            this.customerDelegateShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
+            this.customerDelegateShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.customerDelegateShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.customerDelegateShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            this.customerDelegateShowDetailsBtn.Location = new System.Drawing.Point(6, 490);
+            this.customerDelegateShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDelegateShowDetailsBtn.Name = "customerDelegateShowDetailsBtn";
+            this.customerDelegateShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
+            this.customerDelegateShowDetailsBtn.TabIndex = 102;
+            this.customerDelegateShowDetailsBtn.Text = "عرض التفاصيل";
+            this.customerDelegateShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
+            this.customerDelegateShowDetailsBtn.UseVisualStyleBackColor = false;
+            // 
+            // customerDelegateDGV
+            // 
+            this.customerDelegateDGV.AllowUserToAddRows = false;
+            this.customerDelegateDGV.AllowUserToDeleteRows = false;
+            this.customerDelegateDGV.AllowUserToOrderColumns = true;
+            this.customerDelegateDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.customerDelegateDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.customerDelegateDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle41.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle41.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle41.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle41.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle41.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle41.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.customerDelegateDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle41;
+            this.customerDelegateDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle42.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle42.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle42.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle42.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle42.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle42.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle42.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.customerDelegateDGV.DefaultCellStyle = dataGridViewCellStyle42;
+            this.customerDelegateDGV.EnableHeadersVisualStyles = false;
+            this.customerDelegateDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.customerDelegateDGV.Location = new System.Drawing.Point(2, 65);
+            this.customerDelegateDGV.Margin = new System.Windows.Forms.Padding(2);
+            this.customerDelegateDGV.MultiSelect = false;
+            this.customerDelegateDGV.Name = "customerDelegateDGV";
+            this.customerDelegateDGV.ReadOnly = true;
+            this.customerDelegateDGV.RowHeadersVisible = false;
+            this.customerDelegateDGV.RowTemplate.Height = 24;
+            this.customerDelegateDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.customerDelegateDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.customerDelegateDGV.Size = new System.Drawing.Size(645, 393);
+            this.customerDelegateDGV.TabIndex = 101;
             // 
             // productsTab
             // 
@@ -1228,10 +1436,10 @@ namespace GoldenPOS
             this.productsTab.Controls.Add(this.button11);
             this.productsTab.Controls.Add(this.button12);
             this.productsTab.Controls.Add(this.button13);
-            this.productsTab.Controls.Add(this.dataGridView3);
+            this.productsTab.Controls.Add(this.productsDGV);
             this.productsTab.Location = new System.Drawing.Point(4, 22);
             this.productsTab.Name = "productsTab";
-            this.productsTab.Size = new System.Drawing.Size(636, 519);
+            this.productsTab.Size = new System.Drawing.Size(649, 545);
             this.productsTab.TabIndex = 4;
             this.productsTab.Text = "prods";
             // 
@@ -1246,7 +1454,7 @@ namespace GoldenPOS
             this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button10.Location = new System.Drawing.Point(433, 489);
+            this.button10.Location = new System.Drawing.Point(446, 515);
             this.button10.Margin = new System.Windows.Forms.Padding(2);
             this.button10.Name = "button10";
             this.button10.Size = new System.Drawing.Size(59, 23);
@@ -1266,7 +1474,7 @@ namespace GoldenPOS
             this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button11.Location = new System.Drawing.Point(504, 489);
+            this.button11.Location = new System.Drawing.Point(517, 515);
             this.button11.Margin = new System.Windows.Forms.Padding(2);
             this.button11.Name = "button11";
             this.button11.Size = new System.Drawing.Size(59, 23);
@@ -1286,7 +1494,7 @@ namespace GoldenPOS
             this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button12.Location = new System.Drawing.Point(575, 489);
+            this.button12.Location = new System.Drawing.Point(588, 515);
             this.button12.Margin = new System.Windows.Forms.Padding(2);
             this.button12.Name = "button12";
             this.button12.Size = new System.Drawing.Size(59, 23);
@@ -1306,7 +1514,7 @@ namespace GoldenPOS
             this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button13.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button13.Location = new System.Drawing.Point(6, 489);
+            this.button13.Location = new System.Drawing.Point(6, 515);
             this.button13.Margin = new System.Windows.Forms.Padding(2);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(86, 23);
@@ -1315,75 +1523,46 @@ namespace GoldenPOS
             this.button13.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
             this.button13.UseVisualStyleBackColor = false;
             // 
-            // dataGridView3
+            // productsDGV
             // 
-            this.dataGridView3.AllowUserToAddRows = false;
-            this.dataGridView3.AllowUserToDeleteRows = false;
-            this.dataGridView3.AllowUserToOrderColumns = true;
-            this.dataGridView3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.productsDGV.AllowUserToAddRows = false;
+            this.productsDGV.AllowUserToDeleteRows = false;
+            this.productsDGV.AllowUserToOrderColumns = true;
+            this.productsDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.dataGridView3.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.dataGridView3.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle11.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView3.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
-            this.dataGridView3.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView3.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn5,
-            this.dataGridViewTextBoxColumn6,
-            this.dataGridViewTextBoxColumn7,
-            this.dataGridViewTextBoxColumn8});
-            dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle12.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView3.DefaultCellStyle = dataGridViewCellStyle12;
-            this.dataGridView3.EnableHeadersVisualStyles = false;
-            this.dataGridView3.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.dataGridView3.Location = new System.Drawing.Point(2, 90);
-            this.dataGridView3.Margin = new System.Windows.Forms.Padding(2);
-            this.dataGridView3.MultiSelect = false;
-            this.dataGridView3.Name = "dataGridView3";
-            this.dataGridView3.ReadOnly = true;
-            this.dataGridView3.RowHeadersVisible = false;
-            this.dataGridView3.RowTemplate.Height = 24;
-            this.dataGridView3.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.dataGridView3.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView3.Size = new System.Drawing.Size(632, 367);
-            this.dataGridView3.TabIndex = 96;
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
-            this.dataGridViewTextBoxColumn5.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn6
-            // 
-            this.dataGridViewTextBoxColumn6.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
-            this.dataGridViewTextBoxColumn6.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn7
-            // 
-            this.dataGridViewTextBoxColumn7.HeaderText = "Column3";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
-            this.dataGridViewTextBoxColumn7.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn8
-            // 
-            this.dataGridViewTextBoxColumn8.HeaderText = "Column4";
-            this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
-            this.dataGridViewTextBoxColumn8.ReadOnly = true;
+            this.productsDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.productsDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle43.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle43.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle43.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle43.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle43.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle43.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle43.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.productsDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle43;
+            this.productsDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle44.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle44.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle44.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle44.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle44.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle44.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.productsDGV.DefaultCellStyle = dataGridViewCellStyle44;
+            this.productsDGV.EnableHeadersVisualStyles = false;
+            this.productsDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            this.productsDGV.Location = new System.Drawing.Point(2, 90);
+            this.productsDGV.Margin = new System.Windows.Forms.Padding(2);
+            this.productsDGV.MultiSelect = false;
+            this.productsDGV.Name = "productsDGV";
+            this.productsDGV.ReadOnly = true;
+            this.productsDGV.RowHeadersVisible = false;
+            this.productsDGV.RowTemplate.Height = 24;
+            this.productsDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.productsDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.productsDGV.Size = new System.Drawing.Size(645, 393);
+            this.productsDGV.TabIndex = 96;
             // 
             // categoriesTab
             // 
@@ -1395,7 +1574,7 @@ namespace GoldenPOS
             this.categoriesTab.Controls.Add(this.dataGridView4);
             this.categoriesTab.Location = new System.Drawing.Point(4, 22);
             this.categoriesTab.Name = "categoriesTab";
-            this.categoriesTab.Size = new System.Drawing.Size(636, 519);
+            this.categoriesTab.Size = new System.Drawing.Size(649, 545);
             this.categoriesTab.TabIndex = 5;
             this.categoriesTab.Text = "categ";
             // 
@@ -1410,7 +1589,7 @@ namespace GoldenPOS
             this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button14.Location = new System.Drawing.Point(433, 489);
+            this.button14.Location = new System.Drawing.Point(433, 515);
             this.button14.Margin = new System.Windows.Forms.Padding(2);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(59, 23);
@@ -1430,7 +1609,7 @@ namespace GoldenPOS
             this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button15.Location = new System.Drawing.Point(504, 489);
+            this.button15.Location = new System.Drawing.Point(504, 515);
             this.button15.Margin = new System.Windows.Forms.Padding(2);
             this.button15.Name = "button15";
             this.button15.Size = new System.Drawing.Size(59, 23);
@@ -1450,7 +1629,7 @@ namespace GoldenPOS
             this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button25.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button25.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button25.Location = new System.Drawing.Point(575, 489);
+            this.button25.Location = new System.Drawing.Point(575, 515);
             this.button25.Margin = new System.Windows.Forms.Padding(2);
             this.button25.Name = "button25";
             this.button25.Size = new System.Drawing.Size(59, 23);
@@ -1470,7 +1649,7 @@ namespace GoldenPOS
             this.button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button26.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button26.Location = new System.Drawing.Point(6, 489);
+            this.button26.Location = new System.Drawing.Point(6, 515);
             this.button26.Margin = new System.Windows.Forms.Padding(2);
             this.button26.Name = "button26";
             this.button26.Size = new System.Drawing.Size(86, 23);
@@ -1489,28 +1668,28 @@ namespace GoldenPOS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView4.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView4.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
+            dataGridViewCellStyle45.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle45.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle45.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle45.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle45.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle45.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView4.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle45;
             this.dataGridView4.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView4.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn9,
             this.dataGridViewTextBoxColumn10,
             this.dataGridViewTextBoxColumn11,
             this.dataGridViewTextBoxColumn12});
-            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle14;
+            dataGridViewCellStyle46.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle46.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle46.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle46.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle46.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle46.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView4.DefaultCellStyle = dataGridViewCellStyle46;
             this.dataGridView4.EnableHeadersVisualStyles = false;
             this.dataGridView4.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
             this.dataGridView4.Location = new System.Drawing.Point(2, 90);
@@ -1522,7 +1701,7 @@ namespace GoldenPOS
             this.dataGridView4.RowTemplate.Height = 24;
             this.dataGridView4.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView4.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView4.Size = new System.Drawing.Size(632, 367);
+            this.dataGridView4.Size = new System.Drawing.Size(632, 393);
             this.dataGridView4.TabIndex = 96;
             // 
             // dataGridViewTextBoxColumn9
@@ -1559,7 +1738,7 @@ namespace GoldenPOS
             this.usersTab.Controls.Add(this.dataGridView5);
             this.usersTab.Location = new System.Drawing.Point(4, 22);
             this.usersTab.Name = "usersTab";
-            this.usersTab.Size = new System.Drawing.Size(636, 519);
+            this.usersTab.Size = new System.Drawing.Size(649, 545);
             this.usersTab.TabIndex = 6;
             this.usersTab.Text = "users";
             // 
@@ -1574,7 +1753,7 @@ namespace GoldenPOS
             this.button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button27.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button27.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button27.Location = new System.Drawing.Point(433, 489);
+            this.button27.Location = new System.Drawing.Point(433, 515);
             this.button27.Margin = new System.Windows.Forms.Padding(2);
             this.button27.Name = "button27";
             this.button27.Size = new System.Drawing.Size(59, 23);
@@ -1594,7 +1773,7 @@ namespace GoldenPOS
             this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button28.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button28.Location = new System.Drawing.Point(504, 489);
+            this.button28.Location = new System.Drawing.Point(504, 515);
             this.button28.Margin = new System.Windows.Forms.Padding(2);
             this.button28.Name = "button28";
             this.button28.Size = new System.Drawing.Size(59, 23);
@@ -1614,7 +1793,7 @@ namespace GoldenPOS
             this.button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button29.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button29.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button29.Location = new System.Drawing.Point(575, 489);
+            this.button29.Location = new System.Drawing.Point(575, 515);
             this.button29.Margin = new System.Windows.Forms.Padding(2);
             this.button29.Name = "button29";
             this.button29.Size = new System.Drawing.Size(59, 23);
@@ -1634,7 +1813,7 @@ namespace GoldenPOS
             this.button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button30.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.button30.Location = new System.Drawing.Point(6, 489);
+            this.button30.Location = new System.Drawing.Point(6, 515);
             this.button30.Margin = new System.Windows.Forms.Padding(2);
             this.button30.Name = "button30";
             this.button30.Size = new System.Drawing.Size(86, 23);
@@ -1653,28 +1832,28 @@ namespace GoldenPOS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridView5.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView5.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle15.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle15;
+            dataGridViewCellStyle47.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle47.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
+            dataGridViewCellStyle47.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle47.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle47.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle47.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView5.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle47;
             this.dataGridView5.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView5.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.dataGridViewTextBoxColumn13,
             this.dataGridViewTextBoxColumn14,
             this.dataGridViewTextBoxColumn15,
             this.dataGridViewTextBoxColumn16});
-            dataGridViewCellStyle16.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle16.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle16.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle16.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle16;
+            dataGridViewCellStyle48.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle48.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle48.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            dataGridViewCellStyle48.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle48.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle48.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
+            dataGridViewCellStyle48.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.dataGridView5.DefaultCellStyle = dataGridViewCellStyle48;
             this.dataGridView5.EnableHeadersVisualStyles = false;
             this.dataGridView5.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
             this.dataGridView5.Location = new System.Drawing.Point(2, 90);
@@ -1686,7 +1865,7 @@ namespace GoldenPOS
             this.dataGridView5.RowTemplate.Height = 24;
             this.dataGridView5.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.dataGridView5.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView5.Size = new System.Drawing.Size(632, 367);
+            this.dataGridView5.Size = new System.Drawing.Size(632, 393);
             this.dataGridView5.TabIndex = 96;
             // 
             // dataGridViewTextBoxColumn13
@@ -1713,356 +1892,12 @@ namespace GoldenPOS
             this.dataGridViewTextBoxColumn16.Name = "dataGridViewTextBoxColumn16";
             this.dataGridViewTextBoxColumn16.ReadOnly = true;
             // 
-            // customerTab
-            // 
-            this.customerTab.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerTab.Appearance = System.Windows.Forms.TabAppearance.FlatButtons;
-            this.customerTab.Controls.Add(this.customerPage);
-            this.customerTab.Controls.Add(this.customerTypePage);
-            this.customerTab.Location = new System.Drawing.Point(-4, 3);
-            this.customerTab.Name = "customerTab";
-            this.customerTab.SelectedIndex = 0;
-            this.customerTab.Size = new System.Drawing.Size(644, 520);
-            this.customerTab.TabIndex = 1;
-            // 
-            // customerPage
-            // 
-            this.customerPage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerPage.Controls.Add(this.customerDeleteBtn);
-            this.customerPage.Controls.Add(this.customerUpdateBtn);
-            this.customerPage.Controls.Add(this.customerAddBtn);
-            this.customerPage.Controls.Add(this.customerShowDetailsBtn);
-            this.customerPage.Controls.Add(this.customerDGV);
-            this.customerPage.Location = new System.Drawing.Point(4, 25);
-            this.customerPage.Name = "customerPage";
-            this.customerPage.Padding = new System.Windows.Forms.Padding(3);
-            this.customerPage.Size = new System.Drawing.Size(636, 491);
-            this.customerPage.TabIndex = 0;
-            this.customerPage.Text = "العملاء";
-            // 
-            // customerTypePage
-            // 
-            this.customerTypePage.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerTypePage.Controls.Add(this.customerTypeDeleteBtn);
-            this.customerTypePage.Controls.Add(this.customerTypeUpdateBtn);
-            this.customerTypePage.Controls.Add(this.customerTypeAddBtn);
-            this.customerTypePage.Controls.Add(this.customerTypeShowDetailsBtn);
-            this.customerTypePage.Controls.Add(this.customerTypeDGV);
-            this.customerTypePage.Location = new System.Drawing.Point(4, 25);
-            this.customerTypePage.Name = "customerTypePage";
-            this.customerTypePage.Padding = new System.Windows.Forms.Padding(3);
-            this.customerTypePage.Size = new System.Drawing.Size(636, 491);
-            this.customerTypePage.TabIndex = 1;
-            this.customerTypePage.Text = "فئات العملاء";
-            // 
-            // customerTypeDeleteBtn
-            // 
-            this.customerTypeDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerTypeDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerTypeDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerTypeDeleteBtn.FlatAppearance.BorderSize = 0;
-            this.customerTypeDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerTypeDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerTypeDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerTypeDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerTypeDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerTypeDeleteBtn.Location = new System.Drawing.Point(433, 461);
-            this.customerTypeDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerTypeDeleteBtn.Name = "customerTypeDeleteBtn";
-            this.customerTypeDeleteBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerTypeDeleteBtn.TabIndex = 105;
-            this.customerTypeDeleteBtn.Text = "حذف";
-            this.customerTypeDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerTypeDeleteBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerTypeUpdateBtn
-            // 
-            this.customerTypeUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerTypeUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerTypeUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerTypeUpdateBtn.FlatAppearance.BorderSize = 0;
-            this.customerTypeUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerTypeUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerTypeUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerTypeUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerTypeUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerTypeUpdateBtn.Location = new System.Drawing.Point(504, 461);
-            this.customerTypeUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerTypeUpdateBtn.Name = "customerTypeUpdateBtn";
-            this.customerTypeUpdateBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerTypeUpdateBtn.TabIndex = 104;
-            this.customerTypeUpdateBtn.Text = "تعديل";
-            this.customerTypeUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerTypeUpdateBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerTypeAddBtn
-            // 
-            this.customerTypeAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerTypeAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerTypeAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerTypeAddBtn.FlatAppearance.BorderSize = 0;
-            this.customerTypeAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerTypeAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerTypeAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerTypeAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerTypeAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerTypeAddBtn.Location = new System.Drawing.Point(575, 461);
-            this.customerTypeAddBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerTypeAddBtn.Name = "customerTypeAddBtn";
-            this.customerTypeAddBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerTypeAddBtn.TabIndex = 103;
-            this.customerTypeAddBtn.Text = "إضافة";
-            this.customerTypeAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerTypeAddBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerTypeShowDetailsBtn
-            // 
-            this.customerTypeShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.customerTypeShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerTypeShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerTypeShowDetailsBtn.FlatAppearance.BorderSize = 0;
-            this.customerTypeShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerTypeShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerTypeShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerTypeShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerTypeShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerTypeShowDetailsBtn.Location = new System.Drawing.Point(6, 461);
-            this.customerTypeShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerTypeShowDetailsBtn.Name = "customerTypeShowDetailsBtn";
-            this.customerTypeShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
-            this.customerTypeShowDetailsBtn.TabIndex = 102;
-            this.customerTypeShowDetailsBtn.Text = "عرض التفاصيل";
-            this.customerTypeShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerTypeShowDetailsBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerTypeDGV
-            // 
-            this.customerTypeDGV.AllowUserToAddRows = false;
-            this.customerTypeDGV.AllowUserToDeleteRows = false;
-            this.customerTypeDGV.AllowUserToOrderColumns = true;
-            this.customerTypeDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerTypeDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.customerTypeDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.customerTypeDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.customerTypeDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.customerTypeDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn25,
-            this.dataGridViewTextBoxColumn26,
-            this.dataGridViewTextBoxColumn27,
-            this.dataGridViewTextBoxColumn28});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.customerTypeDGV.DefaultCellStyle = dataGridViewCellStyle4;
-            this.customerTypeDGV.EnableHeadersVisualStyles = false;
-            this.customerTypeDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerTypeDGV.Location = new System.Drawing.Point(2, 65);
-            this.customerTypeDGV.Margin = new System.Windows.Forms.Padding(2);
-            this.customerTypeDGV.MultiSelect = false;
-            this.customerTypeDGV.Name = "customerTypeDGV";
-            this.customerTypeDGV.ReadOnly = true;
-            this.customerTypeDGV.RowHeadersVisible = false;
-            this.customerTypeDGV.RowTemplate.Height = 24;
-            this.customerTypeDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.customerTypeDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.customerTypeDGV.Size = new System.Drawing.Size(632, 364);
-            this.customerTypeDGV.TabIndex = 101;
-            // 
-            // dataGridViewTextBoxColumn25
-            // 
-            this.dataGridViewTextBoxColumn25.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn25.Name = "dataGridViewTextBoxColumn25";
-            this.dataGridViewTextBoxColumn25.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn26
-            // 
-            this.dataGridViewTextBoxColumn26.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn26.Name = "dataGridViewTextBoxColumn26";
-            this.dataGridViewTextBoxColumn26.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn27
-            // 
-            this.dataGridViewTextBoxColumn27.HeaderText = "Column3";
-            this.dataGridViewTextBoxColumn27.Name = "dataGridViewTextBoxColumn27";
-            this.dataGridViewTextBoxColumn27.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn28
-            // 
-            this.dataGridViewTextBoxColumn28.HeaderText = "Column4";
-            this.dataGridViewTextBoxColumn28.Name = "dataGridViewTextBoxColumn28";
-            this.dataGridViewTextBoxColumn28.ReadOnly = true;
-            // 
-            // customerDeleteBtn
-            // 
-            this.customerDeleteBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerDeleteBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDeleteBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerDeleteBtn.FlatAppearance.BorderSize = 0;
-            this.customerDeleteBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerDeleteBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerDeleteBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerDeleteBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerDeleteBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerDeleteBtn.Location = new System.Drawing.Point(433, 461);
-            this.customerDeleteBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDeleteBtn.Name = "customerDeleteBtn";
-            this.customerDeleteBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerDeleteBtn.TabIndex = 110;
-            this.customerDeleteBtn.Text = "حذف";
-            this.customerDeleteBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerDeleteBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerUpdateBtn
-            // 
-            this.customerUpdateBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerUpdateBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerUpdateBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerUpdateBtn.FlatAppearance.BorderSize = 0;
-            this.customerUpdateBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerUpdateBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerUpdateBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerUpdateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerUpdateBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerUpdateBtn.Location = new System.Drawing.Point(504, 461);
-            this.customerUpdateBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerUpdateBtn.Name = "customerUpdateBtn";
-            this.customerUpdateBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerUpdateBtn.TabIndex = 109;
-            this.customerUpdateBtn.Text = "تعديل";
-            this.customerUpdateBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerUpdateBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerAddBtn
-            // 
-            this.customerAddBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerAddBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerAddBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerAddBtn.FlatAppearance.BorderSize = 0;
-            this.customerAddBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerAddBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerAddBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerAddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerAddBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerAddBtn.Location = new System.Drawing.Point(575, 461);
-            this.customerAddBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerAddBtn.Name = "customerAddBtn";
-            this.customerAddBtn.Size = new System.Drawing.Size(59, 23);
-            this.customerAddBtn.TabIndex = 108;
-            this.customerAddBtn.Text = "إضافة";
-            this.customerAddBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerAddBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerShowDetailsBtn
-            // 
-            this.customerShowDetailsBtn.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.customerShowDetailsBtn.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerShowDetailsBtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.customerShowDetailsBtn.FlatAppearance.BorderSize = 0;
-            this.customerShowDetailsBtn.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(81)))), ((int)(((byte)(141)))), ((int)(((byte)(255)))));
-            this.customerShowDetailsBtn.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(19)))), ((int)(((byte)(102)))), ((int)(((byte)(255)))));
-            this.customerShowDetailsBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.customerShowDetailsBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.customerShowDetailsBtn.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.customerShowDetailsBtn.Location = new System.Drawing.Point(6, 461);
-            this.customerShowDetailsBtn.Margin = new System.Windows.Forms.Padding(2);
-            this.customerShowDetailsBtn.Name = "customerShowDetailsBtn";
-            this.customerShowDetailsBtn.Size = new System.Drawing.Size(86, 23);
-            this.customerShowDetailsBtn.TabIndex = 107;
-            this.customerShowDetailsBtn.Text = "عرض التفاصيل";
-            this.customerShowDetailsBtn.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.customerShowDetailsBtn.UseVisualStyleBackColor = false;
-            // 
-            // customerDGV
-            // 
-            this.customerDGV.AllowUserToAddRows = false;
-            this.customerDGV.AllowUserToDeleteRows = false;
-            this.customerDGV.AllowUserToOrderColumns = true;
-            this.customerDGV.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.customerDGV.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
-            this.customerDGV.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Bold);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.customerDGV.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.customerDGV.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.customerDGV.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.dataGridViewTextBoxColumn21,
-            this.dataGridViewTextBoxColumn22,
-            this.dataGridViewTextBoxColumn23,
-            this.dataGridViewTextBoxColumn24});
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(57)))), ((int)(((byte)(62)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(238)))), ((int)(((byte)(238)))), ((int)(((byte)(238)))));
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.customerDGV.DefaultCellStyle = dataGridViewCellStyle2;
-            this.customerDGV.EnableHeadersVisualStyles = false;
-            this.customerDGV.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(122)))), ((int)(((byte)(255)))));
-            this.customerDGV.Location = new System.Drawing.Point(2, 65);
-            this.customerDGV.Margin = new System.Windows.Forms.Padding(2);
-            this.customerDGV.MultiSelect = false;
-            this.customerDGV.Name = "customerDGV";
-            this.customerDGV.ReadOnly = true;
-            this.customerDGV.RowHeadersVisible = false;
-            this.customerDGV.RowTemplate.Height = 24;
-            this.customerDGV.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.customerDGV.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.customerDGV.Size = new System.Drawing.Size(632, 364);
-            this.customerDGV.TabIndex = 106;
-            // 
-            // dataGridViewTextBoxColumn21
-            // 
-            this.dataGridViewTextBoxColumn21.HeaderText = "Column1";
-            this.dataGridViewTextBoxColumn21.Name = "dataGridViewTextBoxColumn21";
-            this.dataGridViewTextBoxColumn21.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn22
-            // 
-            this.dataGridViewTextBoxColumn22.HeaderText = "Column2";
-            this.dataGridViewTextBoxColumn22.Name = "dataGridViewTextBoxColumn22";
-            this.dataGridViewTextBoxColumn22.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn23
-            // 
-            this.dataGridViewTextBoxColumn23.HeaderText = "Column3";
-            this.dataGridViewTextBoxColumn23.Name = "dataGridViewTextBoxColumn23";
-            this.dataGridViewTextBoxColumn23.ReadOnly = true;
-            // 
-            // dataGridViewTextBoxColumn24
-            // 
-            this.dataGridViewTextBoxColumn24.HeaderText = "Column4";
-            this.dataGridViewTextBoxColumn24.Name = "dataGridViewTextBoxColumn24";
-            this.dataGridViewTextBoxColumn24.ReadOnly = true;
-            // 
             // MainPage
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(239)))), ((int)(((byte)(242)))));
-            this.ClientSize = new System.Drawing.Size(838, 574);
+            this.ClientSize = new System.Drawing.Size(851, 574);
             this.Controls.Add(this.AppPages);
             this.Controls.Add(this.MenuPanel);
             this.Margin = new System.Windows.Forms.Padding(2);
@@ -2076,25 +1911,25 @@ namespace GoldenPOS
             this.AppPages.ResumeLayout(false);
             this.dashTab.ResumeLayout(false);
             this.customersTab.ResumeLayout(false);
+            this.customerTab.ResumeLayout(false);
+            this.customerPage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.customerDGV)).EndInit();
+            this.customerTypePage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.customerTypeDGV)).EndInit();
             this.vendorsTab.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.vendorDGV)).EndInit();
             this.delegatesTab.ResumeLayout(false);
             this.delegateTab.ResumeLayout(false);
-            this.customerDelegatePage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.customerDelegateDGV)).EndInit();
             this.vendorDelegatePage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.vendorDelegateDGV)).EndInit();
+            this.customerDelegatePage.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.customerDelegateDGV)).EndInit();
             this.productsTab.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.productsDGV)).EndInit();
             this.categoriesTab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView4)).EndInit();
             this.usersTab.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView5)).EndInit();
-            this.customerTab.ResumeLayout(false);
-            this.customerPage.ResumeLayout(false);
-            this.customerTypePage.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.customerTypeDGV)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.customerDGV)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -2136,24 +1971,16 @@ namespace GoldenPOS
         private System.Windows.Forms.TabPage productsTab;
         private System.Windows.Forms.TabPage categoriesTab;
         private System.Windows.Forms.TabPage usersTab;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView vendorDGV;
+        private System.Windows.Forms.Button vendorDeleteBtn;
+        private System.Windows.Forms.Button vendorUpdateBtn;
+        private System.Windows.Forms.Button vendorAddBtn;
+        private System.Windows.Forms.Button vendorShowDetailsBtn;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.DataGridView dataGridView3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
+        private System.Windows.Forms.DataGridView productsDGV;
         private System.Windows.Forms.Button button14;
         private System.Windows.Forms.Button button15;
         private System.Windows.Forms.Button button25;
@@ -2179,20 +2006,12 @@ namespace GoldenPOS
         private System.Windows.Forms.Button customerDelegateAddBtn;
         private System.Windows.Forms.Button customerDelegateShowDetailsBtn;
         private System.Windows.Forms.DataGridView customerDelegateDGV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
         private System.Windows.Forms.TabPage vendorDelegatePage;
         private System.Windows.Forms.Button vendorDelegateDeleteBtn;
         private System.Windows.Forms.Button vendorDelegateUpdateBtn;
         private System.Windows.Forms.Button vendorDelegateAddBtn;
         private System.Windows.Forms.Button vendorDelegateShowDetailsBtn;
         private System.Windows.Forms.DataGridView vendorDelegateDGV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn17;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn18;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn19;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn20;
         private System.Windows.Forms.TabControl customerTab;
         private System.Windows.Forms.TabPage customerPage;
         private System.Windows.Forms.TabPage customerTypePage;
@@ -2206,13 +2025,9 @@ namespace GoldenPOS
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn27;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn28;
         private System.Windows.Forms.Button customerDeleteBtn;
-        private System.Windows.Forms.Button customerUpdateBtn;
-        private System.Windows.Forms.Button customerAddBtn;
+        private System.Windows.Forms.Button CustomerUpdateBtn;
+        private System.Windows.Forms.Button CustomerAddBtn;
         private System.Windows.Forms.Button customerShowDetailsBtn;
         private System.Windows.Forms.DataGridView customerDGV;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn21;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn22;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn23;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn24;
     }
 }

@@ -41,6 +41,8 @@ namespace GoldenPOS
             CategoriesBtn.BackColor = Color.White;
             UsersBtn.BackColor = Color.White;
             AppPages.SelectTab("customersTab");
+            LoadCustomersDGV();
+
         }
 
         private void VendorsBtn_Click(object sender, EventArgs e)
@@ -53,8 +55,7 @@ namespace GoldenPOS
             CategoriesBtn.BackColor = Color.White;
             UsersBtn.BackColor = Color.White;
             AppPages.SelectTab("vendorsTab");
-
-            populate();
+            LoadVendorsDGV();
         }
 
         private void DelegatesBtn_Click(object sender, EventArgs e)
@@ -67,6 +68,8 @@ namespace GoldenPOS
             CategoriesBtn.BackColor = Color.White;
             UsersBtn.BackColor = Color.White;
             AppPages.SelectTab("delegatesTab");
+            LoadVendorsDelegatesDGV();
+            LoadCustomersDelegatesDGV();
         }
 
         private void ProductsBtn_Click(object sender, EventArgs e)
@@ -79,6 +82,7 @@ namespace GoldenPOS
             CategoriesBtn.BackColor = Color.White;
             UsersBtn.BackColor = Color.White;
             AppPages.SelectTab("productsTab");
+            LoadProductsDGV();
         }
 
         private void CategoriesBtn_Click(object sender, EventArgs e)
@@ -106,17 +110,83 @@ namespace GoldenPOS
         }
 
         #endregion
-    
-        
 
-        public void populate()
+        #region DGV Loaders
+
+        public void LoadCustomersDGV()
         {
-            dataGridView1.Rows.Add("blah", "blah", "blah", "blah");
-            dataGridView1.Rows.Add("blah", "blah", "blah", "blah");
-            dataGridView1.Rows.Add("blah", "blah", "blah", "blah");
-            dataGridView1.Rows.Add("blah", "blah", "blah", "blah");
-            dataGridView1.Rows.Add("blah", "blah", "blah", "blah");
+            Dictionary<string, string> Filters = new Dictionary<string, string>()
+            {
+                {"nameOrPhones","" },
+                {"type","" },
+                {"deleted","" }
+            };
+            customerDGV.DataSource = DataManager.GetCustomersBasicInfo(Filters);
         }
 
+        public void LoadVendorsDGV()
+        {
+            Dictionary<string, string> Filters = new Dictionary<string, string>()
+            {
+                {"nameOrPhones","" },
+                {"otherProducts","" },
+                {"deleted","" }
+            };
+            vendorDGV.DataSource = DataManager.GetVendorsBasicInfo(Filters);
+        }
+
+        public void LoadVendorsDelegatesDGV()
+        {
+            Dictionary<string, string> Filters = new Dictionary<string, string>()
+            {
+                {"nameOrPhones","" },
+                {"vendor","" },
+                {"deleted","" }
+            };
+            vendorDelegateDGV.DataSource = DataManager.GetVendorsDelegatesBasicInfo(Filters);
+        }
+       
+        public void LoadCustomersDelegatesDGV()
+        {
+            Dictionary<string, string> Filters = new Dictionary<string, string>()
+            {
+                {"nameOrPhones","" },
+                {"customer","" },
+                {"deleted","" }
+            };
+            customerDelegateDGV.DataSource = DataManager.GetCustomersDelegatesBasicInfo(Filters);
+        }
+
+        public void LoadProductsDGV()
+        {
+            Dictionary<string, string> Filters = new Dictionary<string, string>()
+            {
+                {"pCode","" },
+                {"pCategory","" },
+                {"deleted","" }
+            };
+            productsDGV.DataSource = DataManager.GetProductsBasicInfo(Filters);
+        }
+
+
+
+        #endregion
+
+        #region Customers Actions
+
+        private void CustomerAddBtn_Click(object sender, EventArgs e)
+        {
+            AddCustomer form = new AddCustomer();
+            form.ShowDialog();
+        }
+
+        private void CustomerUpdateBtn_Click(object sender, EventArgs e)
+        {
+            UpdateCustomer form = new UpdateCustomer(Convert.ToInt32(customerDGV.SelectedRows[0].Cells[0]));
+        }
+
+        
+
+        #endregion
     }
 }
